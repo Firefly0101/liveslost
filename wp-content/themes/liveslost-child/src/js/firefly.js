@@ -61,18 +61,14 @@ function setupFilterButtons(){
  * Filters items with matching value
  */
 function doFilterItems(i){
-    console.log(i);
+    //console.log(i);
     // reset 
     jQuery( ".item-life").removeClass("fade");
     
     // add class to matching items
     if (i != 'ALL') {
         jQuery( ".item-life").not('.' + i).addClass("fade");
-
-        var numItems = jQuery('.item-life').not('.fade').length;
-
-        jQuery('.total-count span').html(numItems);
-        console.log(numItems);
+        //console.log(numItems);
 
         jQuery( "#ajax-posts .row").addClass("hide");
         jQuery( "#ajax-posts .row").has('.' + i).addClass("show").removeClass("hide");
@@ -80,6 +76,10 @@ function doFilterItems(i){
     } else {
         jQuery( "#ajax-posts .row").removeClass("hide");
     }
+
+    // update total count
+    var numItems = jQuery('.item-life').not('.fade').length;
+    jQuery('.total-count span').html(numItems);
 }
 
 
