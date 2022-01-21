@@ -1,0 +1,15 @@
+https://docs.google.com/spreadsheets/d/<document_id>/export?format=csv&gid=<sheet_id>" -O "downloaded_content.csv
+
+1QbqZ34iFfckH5CJnT2b0-tvoRFYQ2Zd2-FMkObeROfc
+
+https://docs.google.com/spreadsheets/d/1QbqZ34iFfckH5CJnT2b0-tvoRFYQ2Zd2-FMkObeROfc
+/export?format=csv&gid=COVID-19 DEATHS AUSTRALIA
+" -O "downloaded_content.csv
+
+
+https://docs.google.com/spreadsheets/d/{key}/gviz/tq?tqx=out:csv&sheet={sheet_name}
+
+
+https://docs.google.com/spreadsheets/d/1QbqZ34iFfckH5CJnT2b0-tvoRFYQ2Zd2-FMkObeROfc/gviz/tq?tqx=out:csv&sheet=COVID-19 DEATHS AUSTRALIA
+
+https://docs.google.com/spreadsheets/d/1QbqZ34iFfckH5CJnT2b0-tvoRFYQ2Zd2-FMkObeROfc/gviz/tq?tqx=out:json&sheet=COVID-19 DEATHS AUSTRALIA

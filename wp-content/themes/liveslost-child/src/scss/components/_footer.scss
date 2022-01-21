@@ -1,0 +1,21 @@
+.site-footer {
+    // logo
+    img {
+        display: block;
+        margin-top: -1.5rem;
+    }
+
+    // copyright
+    [data-row="bottom"] {
+		border-top: 1px solid rgba($black, .1) !important;
+        font-family: $headings-font-family !important;
+        font-size: 12px !important;
+    }
+
+    .footer-menu ul {
+        a {
+            font-size: 12px !important;
+            text-transform: none !important;
+        }
+    }
+}

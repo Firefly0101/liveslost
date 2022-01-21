@@ -1,0 +1,56 @@
+#header {
+    // top row
+    [data-row="top"] {
+        background-color: $white !important;
+    }
+
+    // main nav
+    [data-row="middle"] {
+
+
+        .sub-menu {
+            a {
+                font-size: 15px !important;
+            }
+
+            .sub-menu {
+                background-color: $blue-light;
+            }
+        }
+	}
+
+	// secondary nav
+	#menu-secondary {
+		A {
+			text-transform: none;
+			color: $black;
+		}
+
+		.btn {
+			padding: 0 2rem;
+
+			A {
+				padding: 0;
+			}
+
+			&-yellow {
+				background: $yellow;
+			}
+
+			&-grey {
+				background: $gray-600;
+				A {
+					color: $white;
+				}
+			}
+		}
+
+		.sub-menu {
+			background: $white !important;
+
+			A:hover {
+				color: $green;
+			}
+		}
+	}
+}

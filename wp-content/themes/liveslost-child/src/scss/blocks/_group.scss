@@ -1,0 +1,9 @@
+.wp-block-group {
+	&.wrapper {
+		margin-top: 150px;
+
+		.wp-block-group__inner-container {
+			margin-top: -150px;
+		}
+	}
+}

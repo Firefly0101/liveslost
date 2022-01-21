@@ -1,0 +1,69 @@
+#header {
+
+    .site-title {
+        margin-left: 0.5rem;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem; 
+
+    #ajax-posts {
+        width: 100%;
+    }
+
+    .row {
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+        margin-top: 0.125rem;
+
+        @media screen and (max-width: 768px) {
+
+            flex-wrap:wrap;        
+        }
+    }
+
+    .col {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-date {
+            flex-basis: 6rem;
+            padding-top: 0.25rem;
+
+            
+        }
+        &-items {
+            width:100%;
+            @media screen and (min-width: 768px) {
+                flex-basis: calc(100% - 6rem);
+            }
+
+            .item {
+
+                &-life {
+            
+                    display: inline-flex;
+                    color: $red;
+                    font-size: 1.25rem;
+                    padding: 0 0.25rem;
+
+                    transition-property: all;
+                    transition-duration: .5s;
+                    transition-timing-function: ease-out;
+                    transition-delay: 0s;
+
+                    a {
+                        color: $red; 
+                    }
+                }
+                &-life:hover {
+                    transform: scale(1.35);
+                }
+            }
+        }
+    }
+}

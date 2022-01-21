@@ -1,0 +1,7 @@
+@mixin blue-gradient {
+	background-image: linear-gradient(to right, #17819f 0%, #1db1db 29%);
+}
+
+@mixin blue-gradient-v {
+	background-image: linear-gradient(to bottom, #17819f, #1db1db 100%);
+}
