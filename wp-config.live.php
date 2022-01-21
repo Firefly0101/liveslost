@@ -18,6 +18,9 @@
  * @package WordPress
  */
 
+// sets number of posts to render
+define('SHOW_NUM_POSTS', -1);
+
 $newurl = "https://liveslost.fi.net.au";
 
 define( 'WP_HOME', $newurl );

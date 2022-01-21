@@ -60,9 +60,16 @@ get_header();
 
     <div id="ajax-posts">
     <?php
+
+        // set fallback
+        $show_total = 1000; 
+
+        if ( defined(SHOW_NUM_POSTS) ){
+            $show_total = SHOW_NUM_POSTS;
+        } 
         
-        $postsPerPage = 1500;
-        //$postsPerPage = -1;
+        $postsPerPage = $show_total;
+        
         $args = array(
                 'post_type'         => 'post',
                 'posts_per_page'    => $postsPerPage,
