@@ -89,10 +89,14 @@ get_header();
         while ($loop->have_posts()) : $loop->the_post();
             //setup_postdata( $post );
 
+            $itemclass = 'heart';
+
             $day = carbon_get_the_post_meta( 'ff_date' );
 
             $classes = '';
-            $classes .= carbon_get_the_post_meta( 'ff_state' );
+
+            $state = carbon_get_the_post_meta( 'ff_state' );
+            $classes .= $state;
 
             // get age
             $age = carbon_get_the_post_meta( 'ff_age_bracket' );
@@ -102,15 +106,17 @@ get_header();
             $classes .= ' ' . $age;
 
             // get gender
-            if (carbon_get_the_post_meta( 'ff_gender' )) {
-                $classes .= ' ' . carbon_get_the_post_meta( 'ff_gender' );
+            $gender = carbon_get_the_post_meta( 'ff_gender' );
+
+            if ($gender) {
+                $classes .= ' ' . $gender;
             }
 
-            //get date
-            if (carbon_get_the_post_meta( 'ff_date' )) {
-                $classes .= ' ' . carbon_get_the_post_meta( 'ff_age_bracket' );
-            } else {
-                $classes .= ' ' . 'Unknown';
+            // get claimed
+            $claimed = carbon_get_the_post_meta( 'ff_is_claimed' );
+            if ($claimed) {
+                $classes .= ' ' . 'claimed';
+                $itemclass = 'heartbeat';
             }
 
             $time = strtotime( $post->post_date );
@@ -143,7 +149,7 @@ get_header();
     ?>
         
             <div class="item-life <?php echo $classes ?>">
-                <a href="<?php echo the_permalink(); ?>" title="<?php echo $classes ?>"><i class="fas fa-heart"></i></a>
+                <a href="<?php echo the_permalink(); ?>" title="<?php echo $state . ' ' . $age  ?>"><i class="fas fa-<?php echo $itemclass ?>"></i></a>
             </div>
 
         <?php

@@ -35,12 +35,36 @@ function ff_post_append_content($content) {
 
 	// Check if we're inside the main loop in a single Post.
     if ( is_singular() && in_the_loop() && is_main_query() ) {
-		$form = '[gravityform id="1"]';
+		$form = '[gravityform id="2"]';
 		
-		return $content . do_shortcode( $form );
+		global $post;
+
+		echo get_the_id();
+		if (carbon_get_post_meta( get_the_id(), 'ff_is_claimed' ) != 'yes') {
+			return $content . do_shortcode( $form );
+		} else {
+			return $content . '<p class="info">A name has been submitted for this entry.</p>';
+		}
+		
     }
  
     return $content;
+}
+
+/**
+ * Form submission
+ */
+
+add_action( 'gform_after_submission_2', 'ff_set_post_content', 10, 2 );
+function ff_set_post_content( $entry, $form ) {
+	
+	$id = rgar( $entry, '2' );
+	//var_dump($id); exit;
+    //getting post
+    //$post = get_post( $id );
+	
+	carbon_set_post_meta( $id, 'ff_is_claimed', 'yes' );
+
 }
 
 /**
@@ -64,7 +88,10 @@ function crb_attach_theme_options() {
 			Field::make( 'text', 'ff_transmission', __( 'Transmission Source' ) ),
 			Field::make( 'text', 'ff_comorbidities', __( 'Co-morbidities' ) ),
 			Field::make( 'text', 'ff_vaccination_status', __( 'Vaccination Status' ) ),
-
+			Field::make( 'checkbox', 'ff_is_claimed', 'Is this Entry Claimed' )
+    			->set_option_value( 'yes' ),
+			Field::make( 'checkbox', 'ff_is_verified', 'Claim is Verified' )
+    			->set_option_value( 'yes' ),
 	]);
 }
 
