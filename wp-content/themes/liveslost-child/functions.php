@@ -25,6 +25,23 @@ add_action( 'after_setup_theme', function() {
 	add_editor_style( 'assets/css/editor.css' ); // tries to include editor.css directly from your theme folder
 });
 
+/**
+ * Append Form to post content
+ */
+
+add_filter('the_content', 'ff_post_append_content');
+
+function ff_post_append_content($content) {
+
+	// Check if we're inside the main loop in a single Post.
+    if ( is_singular() && in_the_loop() && is_main_query() ) {
+		$form = '[gravityform id="1"]';
+		
+		return $content . do_shortcode( $form );
+    }
+ 
+    return $content;
+}
 
 /**
  * SETUP CARBON FIELDS
