@@ -64,10 +64,10 @@ get_header();
         // set fallback
         $show_total = 1000; 
 
-        if ( defined(SHOW_NUM_POSTS) ){
+        if ( defined('SHOW_NUM_POSTS') ){
             $show_total = SHOW_NUM_POSTS;
         } 
-        
+       
         $postsPerPage = $show_total;
         
         $args = array(
