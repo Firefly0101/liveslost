@@ -69,10 +69,10 @@ $sizes: 25,33,50,66,75,100;
     span {
         margin-right: 0.25rem; 
         display: inline-flex;
+        margin-bottom: 0.5rem;
 
         @media screen and (max-width: 760px) {
-            width: 30%;
-            margin-bottom: 0.5rem;
+            min-width: 20%;
         }
     }
     span {
