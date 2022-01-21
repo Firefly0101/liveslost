@@ -35,7 +35,7 @@ function ff_post_append_content($content) {
 
 	// Check if we're inside the main loop in a single Post.
     if ( is_singular() && in_the_loop() && is_main_query() ) {
-		$form = '[gravityform id="2"]';
+		$form = '[gravityform id="2" description="true"]';
 		
 		global $post;
 
