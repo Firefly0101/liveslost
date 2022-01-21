@@ -8,11 +8,11 @@ add_action( 'wp_enqueue_scripts', function () {
 	// custom css
 	wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/css/firefly.css' );
 	// fonts
-	wp_enqueue_style( 'custom-fonts', 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Sanchez&display=swap');
+	//wp_enqueue_style( 'custom-fonts', 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Sanchez&display=swap');
 	wp_enqueue_style( 'font-awesome',  get_stylesheet_directory_uri() . '/assets/css/fontawesome-all.min.css');
 
 	// custom JS
-	wp_enqueue_script( 'custom-js', get_stylesheet_directory_uri() . '/assets/js/firefly.js', ['jquery'], '1.0', true );
+	wp_enqueue_script( 'custom-js', get_stylesheet_directory_uri() . '/assets/js/firefly.js', ['jquery'], '1.0.1', true );
 	//Vue
 	//wp_enqueue_script( 'vue-js', 'https://unpkg.com/vue@next', null, null, true );
 
