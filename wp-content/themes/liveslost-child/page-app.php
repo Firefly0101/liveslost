@@ -116,7 +116,7 @@ get_header();
             $claimed = carbon_get_the_post_meta( 'ff_is_claimed' );
             if ($claimed) {
                 $classes .= ' ' . 'claimed';
-                $itemclass = 'heartbeat';
+                $itemclass = 'heart-broken';
             }
 
             $time = strtotime( $post->post_date );
@@ -149,7 +149,7 @@ get_header();
     ?>
         
             <div class="item-life <?php echo $classes ?>">
-                <a href="<?php echo the_permalink(); ?>" title="<?php echo $state . ' ' . $age  ?>"><i class="fas fa-<?php echo $itemclass ?>"></i></a>
+                <a href="<?php echo the_permalink(); ?>" title="<?php echo 'Location:' . $state . ', Age: ' . $age  ?>"><i class="fas fa-<?php echo $itemclass ?>"></i></a>
             </div>
 
         <?php

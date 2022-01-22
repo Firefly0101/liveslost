@@ -39,17 +39,48 @@ function ff_post_append_content($content) {
 		
 		global $post;
 
-		echo get_the_id();
-		if (carbon_get_post_meta( get_the_id(), 'ff_is_claimed' ) != 'yes') {
+		$isclaimed = carbon_get_post_meta( get_the_id(), 'ff_is_claimed' );
+		$isapproved = carbon_get_post_meta( get_the_id(), 'ff_is_verified' );
+
+		//echo get_the_id();
+		if ( $isclaimed != 'yes') {
 			return $content . do_shortcode( $form );
 		} else {
-			return $content . '<p class="info">A name has been submitted for this entry.</p>';
+			$msg = 'A name has been submitted for this person, which is pending approval.';
+
+			// if this name is approved
+			if ($isapproved == 'yes' && $isclaimed == 'yes') {
+				$msg = 'A name has been submitted for this person.';
+			}
+			return $content . '<p class="info">' . $msg . '</p>';
 		}
 		
     }
  
     return $content;
 }
+
+add_filter( 'the_title', 'ff_approved_post_title', 10, 2 );
+function ff_approved_post_title( $title, $id = null ) {
+ 
+    // Check if we're inside the main loop in a single Post.
+    if ( is_singular() || is_archive() && in_the_loop() && is_main_query() ) {
+
+		$isclaimed = carbon_get_post_meta( get_the_id(), 'ff_is_claimed' );
+		$isapproved = carbon_get_post_meta( get_the_id(), 'ff_is_verified' );
+
+		// if this post has supplied name and has been approved
+		if ($isapproved == 'yes' && $isclaimed == 'yes') {
+			$firstname = carbon_get_post_meta( $id, 'ff_name_first' );
+			$lastname = carbon_get_post_meta( $id, 'ff_name_last' );
+
+			return $firstname . ' ' . $lastname;
+		}        
+    }
+ 
+    return $title;
+}
+
 
 /**
  * Form submission
@@ -59,11 +90,15 @@ add_action( 'gform_after_submission_2', 'ff_set_post_content', 10, 2 );
 function ff_set_post_content( $entry, $form ) {
 	
 	$id = rgar( $entry, '2' );
-	//var_dump($id); exit;
-    //getting post
-    //$post = get_post( $id );
 	
+	//print_r( $entry );exit;
+
+	// set checkbox value
 	carbon_set_post_meta( $id, 'ff_is_claimed', 'yes' );
+
+	//populate name fields
+	carbon_set_post_meta( $id, 'ff_name_first', rgar( $entry, '1.3' ) );
+	carbon_set_post_meta( $id, 'ff_name_last', rgar( $entry, '1.6' ) );
 
 }
 
@@ -92,6 +127,8 @@ function crb_attach_theme_options() {
     			->set_option_value( 'yes' ),
 			Field::make( 'checkbox', 'ff_is_verified', 'Claim is Verified' )
     			->set_option_value( 'yes' ),
+			Field::make( 'text', 'ff_name_first', __( 'First Name' ) ),
+			Field::make( 'text', 'ff_name_last', __( 'Last Name' ) ),
 	]);
 }
 
