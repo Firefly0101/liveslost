@@ -107,6 +107,7 @@ get_header();
 
             // get gender
             $gender = carbon_get_the_post_meta( 'ff_gender' );
+            $gender = preg_replace('/[^\p{L}\p{N}\s]/u', '', $gender); // replace non alpha chars
             $gennum = rand(1, 4);
 
             if ($gender) {
