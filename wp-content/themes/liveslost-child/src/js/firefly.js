@@ -13,7 +13,7 @@ window.onload=()=>{
 
     setupTabButtons();
 
-    jQuery('.tab-group').removeClass('d-none');
+    //jQuery('.tab-group').removeClass('d-none');
 }
 
 /**
