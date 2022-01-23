@@ -115,7 +115,7 @@ get_header();
             } else {
                 //$input = array("Male", "Female");
                 //$gender = array_rand(array_flip($input), 1); 
-                $gender = 'unknown';
+                $gender = 'Unknown';
             }
 
             // get claimed
