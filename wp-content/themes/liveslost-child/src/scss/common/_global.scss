@@ -71,10 +71,15 @@ $sizes: 25,33,50,66,75,100;
         display: inline-flex;
         margin-bottom: 0.5rem;
 
+        
+    }
+    .btn {
         @media screen and (max-width: 760px) {
-            min-width: 20%;
+            min-width: 22% !important;
+            margin-bottom: 0.25rem;
         }
     }
+
     span {
         padding-top: 0.125rem;
         margin-left: 0.5rem;
