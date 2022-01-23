@@ -34,7 +34,7 @@ add_filter('the_content', 'ff_post_append_content');
 function ff_post_append_content($content) {
 
 	// Check if we're inside the main loop in a single Post.
-    if ( is_singular() && in_the_loop() && is_main_query() ) {
+    if ( is_single() && in_the_loop() && is_main_query() ) {
 		$form = '[gravityform id="2" description="true"]';
 		
 		global $post;
@@ -64,7 +64,7 @@ add_filter( 'the_title', 'ff_approved_post_title', 10, 2 );
 function ff_approved_post_title( $title, $id = null ) {
  
     // Check if we're inside the main loop in a single Post.
-    if ( is_singular() || is_archive() && in_the_loop() && is_main_query() ) {
+    if ( is_single() || is_archive() && in_the_loop() && is_main_query() ) {
 
 		$isclaimed = carbon_get_post_meta( get_the_id(), 'ff_is_claimed' );
 		$isapproved = carbon_get_post_meta( get_the_id(), 'ff_is_verified' );
