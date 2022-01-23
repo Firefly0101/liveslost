@@ -89,7 +89,7 @@ get_header();
         while ($loop->have_posts()) : $loop->the_post();
             //setup_postdata( $post );
 
-            $itemclass = 'heart';
+            $itemclass = 'female';
 
             $day = carbon_get_the_post_meta( 'ff_date' );
 
@@ -107,16 +107,21 @@ get_header();
 
             // get gender
             $gender = carbon_get_the_post_meta( 'ff_gender' );
+            $gennum = rand(1, 4);
 
             if ($gender) {
                 $classes .= ' ' . $gender;
+            } else {
+                //$input = array("Male", "Female");
+                //$gender = array_rand(array_flip($input), 1); 
+                $gender = 'unknown';
             }
 
             // get claimed
             $claimed = carbon_get_the_post_meta( 'ff_is_claimed' );
             if ($claimed) {
                 $classes .= ' ' . 'claimed';
-                $itemclass = 'heart-broken';
+                $itemclass = 'portrait';
             }
 
             $time = strtotime( $post->post_date );
@@ -148,8 +153,11 @@ get_header();
 
     ?>
         
-            <div class="item-life <?php echo $classes ?>">
-                <a href="<?php echo the_permalink(); ?>" title="<?php echo 'Location:' . $state . ', Age: ' . $age  ?>"><i class="fas fa-<?php echo $itemclass ?>"></i></a>
+            <div class="item-life <?php echo $classes ?>">   
+                <a href="<?php echo the_permalink(); ?>" title="<?php echo 'Location:' . $state . ', Age: ' . $age . ', Gender:' . $gender ?>">
+                    <?php echo '<img style="width:auto; height: 4rem; " loading="lazy" src="' . get_stylesheet_directory_uri() . '/assets/images/figure-' . $gender . '-'. $gennum . '.svg' . '" class="' . $classes . '">'; ?>
+     
+                </a>
             </div>
 
         <?php
