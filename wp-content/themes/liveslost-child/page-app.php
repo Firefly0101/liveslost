@@ -21,7 +21,7 @@ get_header();
     <?php the_content(); ?>
 
     <div id="filter-wrapper" class="row text-normal flex-wrap">
-        <div class="tab-group w-100 mb-1 d-none>
+        <div class="tab-group w-100 mb-1 d-none">
             <button class="tab-bar-item btn active"  data-target="tab-state">View by State</button>
             <button class="tab-bar-item btn"  data-target="tab-age">View by Age</button>
         </div>
