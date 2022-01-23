@@ -28,3 +28,12 @@ h6 {
 	width: 2rem;
 	text-align: center;
 }
+
+p {
+	margin-bottom: 0.5rem;
+	
+	&.has-medium-font-size {
+		margin-bottom: 0.5rem;
+	}
+
+}
