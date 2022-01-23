@@ -155,7 +155,7 @@ get_header();
         
             <div class="item-life <?php echo $classes ?>">   
                 <a href="<?php echo the_permalink(); ?>" title="<?php echo 'Location:' . $state . ', Age: ' . $age . ', Gender:' . $gender ?>">
-                    <?php echo '<img style="width:auto; height: 4rem; " loading="lazy" src="' . get_stylesheet_directory_uri() . '/assets/images/figure-' . $gender . '-'. $gennum . '.svg' . '" class="' . $classes . '">'; ?>
+                    <?php echo '<img style="width:auto; height: 4rem; " loading="lazy" src="' . get_stylesheet_directory_uri() . '/assets/images/figure-' .  strtolower($gender) . '-'. $gennum . '.svg' . '" class="' . $classes . '">'; ?>
      
                 </a>
             </div>
