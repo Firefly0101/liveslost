@@ -49,19 +49,21 @@
                     display: inline-flex;
                     color: $red;
                     font-size: 1.25rem;
-                    padding: 0 0.25rem;
+                    padding: 0 0.125rem;
 
                     transition-property: all;
                     transition-duration: .5s;
                     transition-timing-function: ease-out;
                     transition-delay: 0s;
 
+                    margin-top: 0.5rem; 
+
                     a {
                         color: $red; 
                     }
                 }
                 &-life:hover {
-                    transform: scale(1.35);
+                    transform: scale(1.2);
                 }
             }
         }
