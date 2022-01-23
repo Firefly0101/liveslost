@@ -26,7 +26,10 @@
             flex-wrap:wrap;        
         }
     }
-
+    #filter-wrapper.row {
+        border-bottom: none;
+    }
+    
     .col {
         display: flex;
         flex-wrap: wrap;

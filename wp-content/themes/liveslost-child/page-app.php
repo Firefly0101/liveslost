@@ -25,7 +25,7 @@ get_header();
             <button class="tab-bar-item btn active"  data-target="tab-state">View by State</button>
             <button class="tab-bar-item btn"  data-target="tab-age">View by Age</button>
         </div>
-        <div id="tab-state" class="tab tab-active mb-1">
+        <div id="tab-state" class="tab tab-active">
             <div id="btn-wrapper" class="btn-wrapper d-none mb-1">
                 <button class="btn active" data-target="ALL">All</button>
                 <button class="btn" data-target="NSW">NSW</button>
@@ -38,7 +38,7 @@ get_header();
                 <button class="btn" data-target="ACT">ACT</button> 
             </div>
         </div>
-        <div id="tab-age" class="tab d-none mb-1">
+        <div id="tab-age" class="tab d-none">
             <div class="btn-wrapper col mb-1">
                 <button class="btn" data-target="ALL">All</button> 
                 <button class="btn" data-target="100s">100s</button> 
