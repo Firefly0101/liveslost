@@ -23,7 +23,8 @@ class CustomizerOptionsManager {
 			}
 
 			wp_send_json_success([
-				'data' => serialize($this->get_data(null, $_POST['strategy']))
+				'data' => serialize($this->get_data(null, $_POST['strategy'])),
+				'site_url' => get_site_url()
 			]);
 		});
 
@@ -47,12 +48,21 @@ class CustomizerOptionsManager {
 			// Ensure only stdClass is allowed
 			// We need it for properly decoding widget data. Custom classes
 			// besides stdClass are not allowed.
-			$data = @unserialize(
-				str_replace("\r\n", "\n", wp_unslash($_POST['data'])),
+			$data = unserialize(
+				wp_unslash($_POST['data']),
 				[
 					'allowed_classes' => ['stdClass']
 				]
 			);
+
+			if (! $data) {
+				$data = unserialize(
+					str_replace("\r\n", "\n", wp_unslash($_POST['data'])),
+					[
+						'allowed_classes' => ['stdClass']
+					]
+				);
+			}
 
 			// The above code will only import stuff from $data['mods']
 			// that is actually a customizer control. Everything else will be ignored

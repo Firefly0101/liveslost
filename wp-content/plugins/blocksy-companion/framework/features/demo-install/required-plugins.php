@@ -52,6 +52,12 @@ class DemoInstallPluginsInstaller {
 		$plugins_manager = Plugin::instance()->demo->get_plugins_manager();
 
 		foreach ($plugins as $single_plugin) {
+			if ($single_plugin === 'woocommerce') {
+				if (empty(get_option('woocommerce_db_version'))) {
+					update_option('woocommerce_db_version', '0.0.0');
+				}
+			}
+
 			if ($single_plugin === 'stackable-ultimate-gutenberg-blocks') {
 				$stackable_pro_status = $plugins_manager->get_plugin_status(
 					'stackable-ultimate-gutenberg-blocks-premium'

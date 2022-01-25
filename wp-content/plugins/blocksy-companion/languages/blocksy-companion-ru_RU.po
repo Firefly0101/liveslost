@@ -2,18 +2,18 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-27 09:39:02+0000\n"
+"PO-Revision-Date: 2022-01-18 13:47:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: GlotPress/2.3.1\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.4\n"
 "Language: ru\n"
 "Project-Id-Version: Blocksy Companion Pro\n"
 
 #: framework/premium/static/js/header/CreateHeader.js:117
 msgid "Picker header"
-msgstr ""
+msgstr "Заголовок подборщика"
 
 #: framework/premium/static/js/header/CreateHeader.js:134
 #: static/js/header/PanelsManager.js:58
@@ -22,140 +22,140 @@ msgstr "Глобальная шапка"
 
 #: framework/premium/static/js/header/CreateHeader.js:173
 msgid "Create New Header"
-msgstr ""
+msgstr "Создать новую шапку"
 
 #: framework/premium/static/js/header/CreateHeader.js:50
 msgid "Create new header"
-msgstr ""
+msgstr "Создать новую шапку"
 
 #: framework/premium/static/js/header/CreateHeader.js:53
 msgid "Create a new header and assign it to different pages or posts based on your conditions."
-msgstr ""
+msgstr "Создайте новую шапку и назначьте её различным страницам или записям."
 
 #: framework/premium/static/js/header/CreateHeader.js:71
 msgid "Header name"
-msgstr ""
+msgstr "Название шапки"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:105
 msgid "Yes, continue"
-msgstr ""
+msgstr "Да, продолжить"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:24
 msgid "Use code editor"
-msgstr ""
+msgstr "Открыть редактор кода"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:25
 msgid "Exit code editor"
-msgstr ""
+msgstr "Закрыть редактор кода"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:36
 msgid "Heads up!"
-msgstr ""
+msgstr "Осторожно!"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:38
 msgid "Enabling & disabling the code editor will erase everything from your post editor and this action is irreversible."
-msgstr ""
+msgstr "Включение и отключение редактора кода приведёт к удалению всего текущего содержимого редактора записей. Действие необратимо!"
 
 #: framework/premium/static/js/hooks/CodeEditor.js:45
 msgid "Are you sure you want to continue?"
-msgstr ""
+msgstr "Уверены, что хотите продолжать?"
 
 #: framework/premium/static/js/hooks/CreateHook.js:105
 msgid "Content Block Name"
-msgstr ""
+msgstr "Название блока содержимого"
 
 #: framework/premium/static/js/hooks/CreateHook.js:131
 msgid "Create Content Block"
-msgstr ""
+msgstr "Создать блок содержимого"
 
 #: framework/premium/static/js/hooks/CreateHook.js:35
 msgid "Please select the type of your content block and place it in the location you want based on your display and user conditions."
-msgstr ""
+msgstr "Выберите тип блока содержимого и разместите его в подходящем месте, в зависимости от особенностей экрана пользователя."
 
 #: framework/premium/static/js/hooks/CreateHook.js:55
 msgid "Select template type..."
-msgstr ""
+msgstr "Выберите тип шаблона..."
 
 #: framework/premium/static/js/hooks/CreateHook.js:67
 msgid "Custom Content/Hooks"
-msgstr ""
+msgstr "Произвольное содержимое/вебзацеп"
 
 #: framework/premium/static/js/hooks/CreateHook.js:76
 msgid "Popup Template"
-msgstr ""
+msgstr "Шаблон модального окна"
 
 #: framework/premium/static/js/hooks/CreateHook.js:82
 msgid "404 Page Template"
-msgstr ""
+msgstr "Шаблон страницы 404"
 
 #: framework/premium/static/js/hooks/CreateHook.js:91
 msgid "Header Template"
-msgstr ""
+msgstr "Шаблон шапки"
 
 #: framework/premium/static/js/hooks/CreateHook.js:97
 msgid "Footer Template"
-msgstr ""
+msgstr "Шаблон подвала"
 
 #: framework/premium/static/js/options/IconPicker.js:133
 msgid "Change Icon"
-msgstr ""
+msgstr "Изменить значок"
 
 #: framework/premium/static/js/options/IconPicker.js:150
 msgid "Remove Icon"
-msgstr ""
+msgstr "Удалить значок"
 
 #: framework/premium/static/js/options/IconPicker.js:156
 msgid "Select"
-msgstr ""
+msgstr "Выбрать"
 
 #: framework/premium/static/js/options/IconPicker/CustomIcon.js:22
 msgid "Upload Icon"
-msgstr ""
+msgstr "Загрузить значок"
 
 #: framework/premium/static/js/options/IconPicker/CustomIcon.js:34
 msgid "For performance and customization reasons, only SVG files are allowed."
-msgstr ""
+msgstr "Ради производительности и настраиваемости разрешены только SVG-файлы."
 
 #: framework/premium/static/js/options/IconPicker/IconsList.js:24
 msgid "Search icon"
-msgstr ""
+msgstr " Значок поиска"
 
 #: framework/premium/static/js/options/IconPicker/Modal.js:135
 msgid "Predefined"
-msgstr ""
+msgstr "Указать"
 
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:156
 msgid "Add New Location"
-msgstr ""
+msgstr "Добавить новое положение"
 
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:47
 msgid "Select location"
-msgstr ""
+msgstr "Выберите место"
 
 #: framework/premium/static/js/typography/providers/kadence.js:15
 #: framework/premium/static/js/typography/providers/plus-addons.js:18
 #: framework/premium/static/js/typography/providers/stackable.js:18
 msgid "Blocksy Local Google Fonts"
-msgstr ""
+msgstr "Локальные Google-шрифты"
 
 #: framework/premium/static/js/typography/providers/kadence.js:19
 #: framework/premium/static/js/typography/providers/plus-addons.js:22
 #: framework/premium/static/js/typography/providers/stackable.js:22
 msgid "Blocksy Typekit"
-msgstr ""
+msgstr "Шрифты Typekit"
 
 #: framework/premium/static/js/typography/providers/kadence.js:20
 #: framework/premium/static/js/typography/providers/stackable.js:23
 msgid "Blocksy Custom Fonts"
-msgstr ""
+msgstr "Произвольные шрифты"
 
 #: framework/premium/static/js/typography/providers/plus-addons.js:23
 msgid "Blocksy Custom"
-msgstr ""
+msgstr "Кастомизация"
 
 #: framework/premium/static/js/typography/providers/plus-addons.js:24
 msgid "Blocksy System"
-msgstr ""
+msgstr "Система темы"
 
 #: static/js/dashboard.js:30
 msgid "Starter Sites"
@@ -180,11 +180,11 @@ msgstr "Удалить шапку"
 
 #: static/js/header/PanelsManager.js:196
 msgid "Remove Header"
-msgstr "Удалить заголовок"
+msgstr "Удаление шапки"
 
 #: static/js/header/PanelsManager.js:199
 msgid "You are about to remove a custom header, are you sure you want to continue?"
-msgstr "Вы собираетесь удалить произвольный заголовок, уверены, что хотите продолжить?"
+msgstr "Вы собираетесь удалить настроенную шапку! Уверены, что хотите продолжить?"
 
 #: static/js/helpers/SubmitSupport.js:18
 msgid "Need help or advice?"
@@ -204,7 +204,7 @@ msgstr "Вступить в сообщество на Facebook"
 
 #: static/js/helpers/useActivationAction.js:113
 msgid "Free vs Pro"
-msgstr "Бесплатная или Pro"
+msgstr "Бесплатная или профессиональная"
 
 #: static/js/helpers/useActivationAction.js:120
 msgid "Upgrade Now"
@@ -272,19 +272,19 @@ msgstr "Легко экспортируйте параметры настрой�
 
 #: static/js/options/CustomizerOptionsManager.js:128
 msgid "Click or drop to upload a file..."
-msgstr "Нажмите или перетащите, чтобы загрузить файл ..."
+msgstr "Указать или перетащить файл..."
 
 #: static/js/options/CustomizerOptionsManager.js:192
 msgid "Import Customizations"
-msgstr "Импорт настройки"
+msgstr "Импорт настроек"
 
 #: static/js/options/CustomizerOptionsManager.js:201
 msgid "Copy Options"
-msgstr "Копировать настройки"
+msgstr "Копирование настроек"
 
 #: static/js/options/CustomizerOptionsManager.js:204
 msgid "Copy and import your customizations from parent or child theme."
-msgstr "Копировать и импортировать свои настройки из родительской или дочерней темы."
+msgstr "Копирование и импорт настроек из родительской или дочерней темы."
 
 #: static/js/options/CustomizerOptionsManager.js:258
 msgid "Copy From Parent Theme"
@@ -336,7 +336,7 @@ msgstr "Легко экспортируйте параметры настрой�
 
 #: static/js/options/CustomizerOptionsManager.js:99
 msgid "Export Customizations"
-msgstr "Экспорт настроек"
+msgstr "Экспортировать настройки"
 
 #: static/js/options/DisplayCondition.js:18
 msgid "Transparent Header Display Conditions"
@@ -376,7 +376,7 @@ msgstr "Далее"
 
 #: static/js/screens/DemoInstall/DemosList.js:100
 msgid "Import"
-msgstr "Импортировать"
+msgstr "Импорт"
 
 #: static/js/screens/DemoInstall/DemosList.js:43
 msgid "Available for"
@@ -384,7 +384,7 @@ msgstr "Доступно для"
 
 #: static/js/screens/DemoInstall/DemosList.js:86
 msgid "Preview"
-msgstr "Предпросмотр"
+msgstr "Просмотр"
 
 #: static/js/screens/DemoInstall/DemosList.js:99
 msgid "Modify"
@@ -513,7 +513,7 @@ msgstr "Последние штрихи"
 
 #: static/js/screens/DemoInstall/Installer/useInstaller.js:151
 msgid "Import options"
-msgstr "Импорт настроек"
+msgstr "Импортировать настройки"
 
 #: static/js/screens/DemoInstall/Installer/useInstaller.js:161
 msgid "Import widgets"
@@ -573,7 +573,7 @@ msgstr "Стартовый сайт удалён"
 
 #: static/js/screens/DemoInstall/Wizzard/ModifyDemo.js:129
 msgid "Dismiss"
-msgstr "Скрыть"
+msgstr "С��рыть"
 
 #: static/js/screens/DemoInstall/Wizzard/ModifyDemo.js:138
 msgid "What steps do you want to perform next?"
@@ -653,105 +653,105 @@ msgstr "URL предпросмотра"
 
 #: framework/premium/extensions/mega-menu/extension.php:257
 msgid "New"
-msgstr ""
+msgstr "Нов."
 
 #: framework/premium/extensions/mega-menu/options.php:16,
 #: framework/premium/extensions/mega-menu/options.php:528
 msgid "Mega Menu Settings"
-msgstr ""
+msgstr "Настройки мега-меню"
 
 #: framework/premium/extensions/mega-menu/options.php:27
 msgid "Dropdown Width"
-msgstr ""
+msgstr "Ширина выпадающего меню"
 
 #: framework/premium/extensions/mega-menu/options.php:35,
 #: framework/premium/extensions/mega-menu/options.php:48
 msgid "Content Width"
-msgstr ""
+msgstr "Ширина содержимого"
 
 #: framework/premium/extensions/mega-menu/options.php:36,
 #: framework/premium/extensions/mega-menu/options.php:57
 msgid "Full Width"
-msgstr ""
+msgstr "Полная ширина"
 
 #: framework/premium/extensions/mega-menu/options.php:37
 msgid "Custom Width"
-msgstr ""
+msgstr "Произвольная ширина"
 
 #: framework/premium/extensions/mega-menu/options.php:56
 msgid "Default Width"
-msgstr ""
+msgstr "Стандартная ширина"
 
 #: framework/premium/extensions/mega-menu/options.php:85
 msgid "Columns"
-msgstr ""
+msgstr "Колонки"
 
 #: framework/premium/extensions/mega-menu/options.php:320
 msgid "Custom Content"
-msgstr ""
+msgstr "Произвольное содержимое"
 
 #: framework/premium/extensions/mega-menu/options.php:324
 msgid "Content Type"
-msgstr ""
+msgstr "Тип содержимого"
 
 #: framework/premium/extensions/mega-menu/options.php:331
 msgid "Default (Menu Item)"
-msgstr ""
+msgstr "Стандартный (пункт меню)"
 
 #: framework/premium/extensions/mega-menu/options.php:332
 msgid "Custom Text"
-msgstr ""
+msgstr "Произвольный текст"
 
 #: framework/premium/extensions/mega-menu/options.php:333
 msgid "Content Block/Hook"
-msgstr ""
+msgstr "Блок содержимого/вебзацеп"
 
 #: framework/premium/extensions/mega-menu/options.php:392,
 #: framework/premium/extensions/mega-menu/options.php:708
 msgid "Item Label Settings"
-msgstr ""
+msgstr "Настройки ярлыка пункта"
 
 #: framework/premium/extensions/mega-menu/options.php:397
 msgid "Item Label"
-msgstr ""
+msgstr "Ярлык пункта"
 
 #: framework/premium/extensions/mega-menu/options.php:405
 msgid "Enabled"
-msgstr ""
+msgstr "Влючено"
 
 #: framework/premium/extensions/mega-menu/options.php:406,
 #: framework/premium/features/content-blocks/options/404.php:104,
 #: framework/premium/features/content-blocks/options/header.php:108,
 #: framework/premium/features/content-blocks/options/hook.php:113
 msgid "Disabled"
-msgstr ""
+msgstr "Отключено"
 
 #: framework/premium/extensions/mega-menu/options.php:407
 msgid "Heading"
-msgstr ""
+msgstr "Заголовок"
 
 #: framework/premium/extensions/mega-menu/options.php:413
 msgid "Label Link"
-msgstr ""
+msgstr "Ссылка ярлыка"
 
 #: framework/premium/extensions/mega-menu/options.php:479,
 #: framework/premium/extensions/mega-menu/options.php:790
 msgid "Menu Badge Settings"
-msgstr ""
+msgstr "Настройки отметки меню"
 
 #: framework/premium/extensions/mega-menu/options.php:497,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:260
 msgid "Vertical Alignment"
-msgstr ""
+msgstr "Вертикальное выравнивание"
 
 #: framework/premium/extensions/mega-menu/options.php:532,
 #: framework/premium/extensions/shortcuts/customizer.php:862
 msgid "Background"
-msgstr ""
+msgstr "Фон"
 
 #: framework/premium/extensions/mega-menu/options.php:546
 msgid "Link Color"
-msgstr ""
+msgstr "Цвет ссылки"
 
 #: framework/premium/extensions/mega-menu/options.php:566,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:144,
@@ -759,54 +759,54 @@ msgstr ""
 #: framework/premium/features/premium-header/items/contacts/options.php:459,
 #: framework/premium/features/premium-header/items/contacts/options.php:499
 msgid "Link Initial"
-msgstr ""
+msgstr "Ссылка исходная"
 
 #: framework/premium/extensions/mega-menu/options.php:571
 msgid "Link Hover/Active"
-msgstr ""
+msgstr "Ссылка при наведении/активная"
 
 #: framework/premium/extensions/mega-menu/options.php:576
 msgid "Background Hover"
-msgstr ""
+msgstr "Фон при наведении"
 
 #: framework/premium/extensions/mega-menu/options.php:583,
 #: framework/premium/extensions/mega-menu/options.php:717
 msgid "Heading Color"
-msgstr ""
+msgstr "Цвет заголовка"
 
 #: framework/premium/extensions/mega-menu/options.php:595,
 #: framework/premium/extensions/mega-menu/options.php:615,
 #: framework/premium/extensions/mega-menu/options.php:729
 msgid "Initial Color"
-msgstr ""
+msgstr "Исходный цвет"
 
 #: framework/premium/extensions/mega-menu/options.php:603
 msgid "Text Color"
-msgstr ""
+msgstr "Цвет текста"
 
 #: framework/premium/extensions/mega-menu/options.php:622,
 #: framework/premium/extensions/shortcuts/customizer.php:879,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:432,
 #: framework/premium/features/premium-header/items/search-input/options.php:815
 msgid "Items Divider"
-msgstr ""
+msgstr "Разделитель элементов"
 
 #: framework/premium/extensions/mega-menu/options.php:637
 msgid "Columns Divider"
-msgstr ""
+msgstr "Разделитель колонок"
 
 #: framework/premium/extensions/mega-menu/options.php:652,
 #: framework/premium/features/premium-header/items/search-input/options.php:797
 msgid "Dropdown Shadow"
-msgstr ""
+msgstr "Тень выпадающего списка"
 
 #: framework/premium/extensions/mega-menu/options.php:684
 msgid "Column Settings"
-msgstr ""
+msgstr "Настройки колонки"
 
 #: framework/premium/extensions/mega-menu/options.php:688
 msgid "Column Spacing"
-msgstr ""
+msgstr "Отступ колонки"
 
 #: framework/premium/extensions/mega-menu/options.php:740,
 #: framework/features/header/items/account/options.php:660,
@@ -829,78 +829,78 @@ msgstr "Цвет значка"
 
 #: framework/premium/extensions/post-types-extra/config.php:4
 msgid "Post Types Extra"
-msgstr ""
+msgstr "Дополнительные типы записей"
 
 #: framework/premium/extensions/post-types-extra/config.php:5
 msgid "Enables support for Custom Fields inside archive cards and single page post title, adds a reading progress bar for your posts and lets you set featured images and colors for your categories archives."
-msgstr ""
+msgstr "Включает поддержку настраиваемых полей внутри карточек архива и заголовка отельной страницы записи, добавляет индикатор хода чтения для записей и позволяет устанавливать изображения и цвета для архивов категорий."
 
 #: framework/premium/extensions/post-types-extra/readme.php:4
 msgid "After activating this extension you will be able to enable the read progress bar for your single posts, add a featured image and set different colors to each taxonomy, add custom fields to your archive cards or page/post title section with the help of ACF, MetaBox and Toolset plugins, and also add taxonomies archive filters."
-msgstr ""
+msgstr "После активации этого расширения вы сможете включить индикатор прогресса чтения отдельных записей, добавлять изображение и установить разные цвета для каждой таксономии, добавлять настраиваемые поля в карточки архивов или раздел заголовка страницы/записи с помощью ACF, плагины MetaBox и Toolset, а также добавлять фильтры архивов таксономий."
 
 #: framework/premium/extensions/post-types-extra/readme.php:10
 msgid "Custom Fields"
-msgstr ""
+msgstr "Произвольные поля"
 
 #: framework/premium/extensions/post-types-extra/readme.php:14
 msgid "After setting up your custom fields you will be able to output them from %s or from %2s."
-msgstr ""
+msgstr "После настройки произвольных полей в�� сможете выводить их в разделе %s или %2s."
 
 #: framework/premium/extensions/post-types-extra/readme.php:17
 msgid "Customizer ➝ Blog Posts ➝ Card Options"
-msgstr ""
+msgstr "Настройщик ➝ Записи блога ➝ Настройки карточки"
 
 #: framework/premium/extensions/post-types-extra/readme.php:21
 msgid "Customizer ➝ Single Posts ➝ Post Title"
-msgstr ""
+msgstr "Настройщик ➝ Отдельные записи ➝ Область заголовка"
 
 #: framework/premium/extensions/post-types-extra/readme.php:29
 msgid "Taxonomies Filters"
-msgstr ""
+msgstr "Фильтры таксономий"
 
 #: framework/premium/extensions/post-types-extra/readme.php:33
 msgid "You can enable the taxonomies filters from %s."
-msgstr ""
+msgstr "Включить фильтры таксономий можно из раздела %s."
 
 #: framework/premium/extensions/post-types-extra/readme.php:36
 msgid "Customizer ➝ Blog Posts ➝ Filters"
-msgstr ""
+msgstr "Настройщик ➝ Записи блога ➝ Фильтры"
 
 #: framework/premium/extensions/post-types-extra/readme.php:44
 msgid "Read Progress Bar"
-msgstr ""
+msgstr "Индикатор прогресса чтения"
 
 #: framework/premium/extensions/post-types-extra/readme.php:48
 msgid "This options could be enabled from %s."
-msgstr ""
+msgstr "Эти параметры могут быть включены в разделе %s."
 
 #: framework/premium/extensions/post-types-extra/readme.php:51
 msgid "Customizer ➝ Single Posts ➝ Read Progress Bar"
-msgstr ""
+msgstr "Настройщик ➝ Отдельные записи ➝ Индикатор прогресса чтения"
 
 #: framework/premium/extensions/post-types-extra/readme.php:59
 msgid "Taxonomy Featured Image & Custom Colors"
-msgstr ""
+msgstr "Изображение и произвольные цвета таксономии"
 
 #: framework/premium/extensions/post-types-extra/readme.php:63
 msgid "To customize these options simply navigate to %s and edit one of your categories."
-msgstr ""
+msgstr "Чтобы настроить эти параметры, перейдите в раздел %s и измените одну из своих рубрик."
 
 #: framework/premium/extensions/post-types-extra/readme.php:66
 msgid "Dashboard ➝ Posts ➝ Categories"
-msgstr ""
+msgstr "Консоль ➝ Записи ➝ Рубрики"
 
 #: framework/premium/extensions/shortcuts/config.php:5
 msgid "Easily turn your websites into mobile first experiences. You can easily add the most important actions at the bottom of the screen for easy access."
-msgstr ""
+msgstr "Легко превратите свой сайт в адаптированный для мобильных устройств. Выведите органы наиболее важных действий в нижнюю часть экрана для быстрого доступа."
 
 #: framework/premium/extensions/shortcuts/customizer.php:12,
 #: framework/premium/extensions/shortcuts/customizer.php:35,
 #: framework/premium/extensions/shortcuts/customizer.php:542,
 #: framework/premium/extensions/shortcuts/views/bar.php:25
 msgid "Home"
-msgstr ""
+msgstr "Главная"
 
 #: framework/premium/extensions/shortcuts/customizer.php:68,
 #: framework/premium/extensions/shortcuts/customizer.php:91,
@@ -915,18 +915,18 @@ msgstr "Телефон"
 #: framework/premium/extensions/shortcuts/customizer.php:215,
 #: framework/premium/extensions/shortcuts/views/bar.php:28
 msgid "Scroll Top"
-msgstr ""
+msgstr "Прокрутка вверх"
 
 #: framework/premium/extensions/shortcuts/customizer.php:318,
 #: framework/premium/extensions/shortcuts/customizer.php:341,
 #: framework/premium/extensions/shortcuts/views/bar.php:29
 msgid "Cart"
-msgstr ""
+msgstr "Корзина"
 
 #: framework/premium/extensions/shortcuts/customizer.php:374,
 #: framework/premium/extensions/shortcuts/customizer.php:397
 msgid "Shop"
-msgstr ""
+msgstr "Магазин"
 
 #: framework/premium/extensions/shortcuts/customizer.php:430,
 #: framework/premium/extensions/shortcuts/customizer.php:453,
@@ -935,18 +935,18 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:109,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/view.php:88
 msgid "Wishlist"
-msgstr ""
+msgstr "Избранное"
 
 #: framework/premium/extensions/shortcuts/customizer.php:536
 msgid "Shortcuts"
-msgstr ""
+msgstr "Ярлыки"
 
 #: framework/premium/extensions/shortcuts/customizer.php:591,
 #: framework/features/header/items/account/options.php:216,
 #: framework/features/header/items/account/options.php:422,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:61
 msgid "Label Visibility"
-msgstr "Видимость метки"
+msgstr "Видимость подписи"
 
 #: framework/premium/extensions/shortcuts/customizer.php:631,
 #: framework/features/header/items/account/options.php:252,
@@ -974,27 +974,27 @@ msgstr "Размер значка"
 
 #: framework/premium/extensions/shortcuts/customizer.php:661
 msgid "Container Height"
-msgstr ""
+msgstr "Высота контейнера"
 
 #: framework/premium/extensions/shortcuts/customizer.php:676
 msgid "Container Max Width"
-msgstr ""
+msgstr "Макс. ширина контейнера"
 
 #: framework/premium/extensions/shortcuts/customizer.php:700
 msgid "Scroll Interaction"
-msgstr ""
+msgstr "Реакция на прокрутку"
 
 #: framework/premium/extensions/shortcuts/customizer.php:706
 msgid "Hide"
-msgstr ""
+msgstr "Скрывать"
 
 #: framework/premium/extensions/shortcuts/customizer.php:748
 msgid "Shortcuts Bar Display Conditions"
-msgstr ""
+msgstr "Условия отображения панели ярлыков"
 
 #: framework/premium/extensions/shortcuts/customizer.php:749
 msgid "Add one or more conditions to display the shortcuts bar."
-msgstr ""
+msgstr " Добавьте одно или несколько условий для отображения панели ярлыков."
 
 #: framework/premium/extensions/shortcuts/customizer.php:763,
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:173,
@@ -1002,7 +1002,7 @@ msgstr ""
 #: framework/premium/features/premium-header/items/language-switcher/options.php:192,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:376
 msgid "Font"
-msgstr ""
+msgstr "Шрифт"
 
 #: framework/premium/extensions/shortcuts/customizer.php:805,
 #: framework/premium/features/premium-header/items/contacts/options.php:529,
@@ -1010,76 +1010,76 @@ msgstr ""
 #: framework/premium/features/premium-header/items/contacts/options.php:589,
 #: framework/premium/features/premium-header/items/contacts/options.php:619
 msgid "Icons Color"
-msgstr ""
+msgstr "Цвет значков"
 
 #: framework/premium/extensions/shortcuts/customizer.php:844
 msgid "Cart Badge Color"
-msgstr ""
+msgstr "Цве�� метки корзины"
 
 #: framework/premium/extensions/shortcuts/customizer.php:899
 msgid "Items Divider Height"
-msgstr ""
+msgstr "Высота разделителя элементов"
 
 #: framework/premium/extensions/shortcuts/customizer.php:913,
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:123,
 #: framework/premium/features/content-blocks/options/popup.php:368,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:446
 msgid "Shadow"
-msgstr ""
+msgstr "Тень"
 
 #: framework/premium/extensions/sidebars/config.php:5
 msgid "Create unlimited personalized sets of widget areas and display them on any page or post using our conditional logic functionality."
-msgstr ""
+msgstr "Создавайте сколько угодно персонализированных наборов областей виджетов и отображайте их на любой странице или записи, используя функциональность условной логики."
 
 #: framework/premium/extensions/sidebars/config.php:9
 msgid "Create New Sidebar"
-msgstr ""
+msgstr "Создать сайдбар"
 
 #: framework/premium/extensions/sidebars/form.php:3
 #: framework/premium/extensions/sidebars/static/js/main.js:42
 msgid "Create Sidebar/Widget Area"
-msgstr ""
+msgstr "Создать сайдбар/область виджетов"
 
 #: framework/premium/extensions/sidebars/form.php:6
 msgid "In order to create a new sidebar/widget area simply enter a name in the input below and click the Create Sidebar button."
-msgstr ""
+msgstr "Чтобы создать новый сайдбар/область виджетов, просто введите название в поле ввода ниже и нажмите кнопку «Создать сайдбар»."
 
 #: framework/premium/extensions/sidebars/form.php:16
 #: framework/premium/extensions/sidebars/static/js/main.js:58
 msgid "Create Sidebar"
-msgstr ""
+msgstr "Создать сайдбар"
 
 #: framework/premium/extensions/sidebars/form.php:20
 msgid "Available Sidebars/Widget Areas"
-msgstr ""
+msgstr "Доступные сайдбары/области виджетов"
 
 #: framework/premium/extensions/white-label/config.php:4
 msgid "Replace Blocksy's branding with your own. Easily hide licensing info and other sections of the theme and companion plugin from your clients and make your final product look more professional."
-msgstr ""
+msgstr "Заменяйте айдентику Blocksy на свою собственную. Легко скрывайте информацию о лицензировании и другие разделы темы и сопутствующего плагина от своих клиентов и делайте свой конечный продукт более профессиональным."
 
 #: framework/premium/extensions/woocommerce-extra/config.php:5
 msgid "Make the shopping experience better for your visitors! Add features such as Product Quick View, Wishlist functionality and a Floating Add to Cart button. Customize the single product gallery/slider and the layout."
-msgstr ""
+msgstr "Сделайте процесс покупок лучше для посетителей своего сайта! Добавьте такие функции, как быстрый просмотр товара, раздел списка желаний и плавающая кнопка добавления в корзину. Настраивайте галерею/слайдер отдельного товара и его макет."
 
 #: framework/premium/extensions/woocommerce-extra/customizer.php:5
 msgid "Quick View Button"
-msgstr ""
+msgstr "Кнопка быстрого просмотра"
 
 #: framework/premium/extensions/woocommerce-extra/customizer.php:21
 msgid "Trigger On"
-msgstr ""
+msgstr "Триггер запуска"
 
 #: framework/premium/extensions/woocommerce-extra/customizer.php:29
 msgid "Button click"
-msgstr ""
+msgstr "Нажатие на кнопку"
 
 #: framework/premium/extensions/woocommerce-extra/customizer.php:30
 msgid "Image click"
-msgstr ""
+msgstr "Нажатие на картинку"
 
 #: framework/premium/extensions/woocommerce-extra/customizer.php:31
 msgid "Card click"
-msgstr ""
+msgstr "Нажатие на карточку"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:82,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:196,
@@ -1099,148 +1099,148 @@ msgstr "Тип 4"
 #: framework/premium/extensions/woocommerce-extra/extension.php:110,
 #: framework/premium/extensions/woocommerce-extra/extension.php:129
 msgid "Number of Columns"
-msgstr ""
+msgstr "Колонки"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:612
 msgid "Available Filters"
-msgstr ""
+msgstr "Доступные фильтры"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:690
 msgid "Quick view title before"
-msgstr ""
+msgstr "Перед заголовком быстрого просмотра"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:695
 msgid "Quick view title after"
-msgstr ""
+msgstr "После заголовка быстрого просмотра"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:700
 msgid "Quick view price before"
-msgstr ""
+msgstr "До цены быстрого просмотра"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:705
 msgid "Quick view price after"
-msgstr ""
+msgstr "После цены быстрого просмотра"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:710
 msgid "Quick view summary before"
-msgstr ""
+msgstr "До обзора быстрого просмотра"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:715
 msgid "Quick view summary after"
-msgstr ""
+msgstr "После обзора быстрого просмотра"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:4,
 #: framework/premium/extensions/woocommerce-extra/readme.php:25
 msgid "Floating Cart"
-msgstr ""
+msgstr "Плавающая корзина"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:17
 msgid "Position"
-msgstr ""
+msgstr "Положение"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:24,
 #: framework/premium/features/content-blocks/hooks-manager.php:295,
 #: framework/premium/features/content-blocks/options/hook.php:306
 msgid "Top"
-msgstr ""
+msgstr "Верху"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:34
 msgid "Product Title Visibility"
-msgstr ""
+msgstr "Видимость заголовка товара"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:58
 msgid "Floating Cart Visibility"
-msgstr ""
+msgstr "Видимость плавающей корзины"
 
 #: framework/premium/extensions/woocommerce-extra/helpers.php:102
 msgid "Go to product page"
-msgstr ""
+msgstr "Открыть страницу товара"
 
 #: framework/premium/extensions/woocommerce-extra/helpers.php:322
 msgid "Filter"
-msgstr ""
+msgstr "Фильтр"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:3
 msgid "Off Canvas Filter"
-msgstr ""
+msgstr "Плавающий фильтр"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:14
 msgid "Filter Widgets"
-msgstr ""
+msgstr "Виджеты фильтра"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:18
 msgid "Widgets"
-msgstr ""
+msgstr "Виджеты"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:36
 msgid "Widgets Vertical Spacing"
-msgstr ""
+msgstr "Вертикальный отступ виджетов"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:51
 msgid "Widgets Title Font"
-msgstr ""
+msgstr "Шрифт заголовков виджетов"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:59
 msgid "Widgets Title Font Color"
-msgstr ""
+msgstr "Цвет шрифта заголовков виджетов"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:107
 msgid "Widgets Font"
-msgstr ""
+msgstr "Шрифт виджетов"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:116
 msgid "Widgets Font Color"
-msgstr ""
+msgstr "Цвет шрифта виджетов"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:138,
 #: framework/premium/features/premium-header/items/contacts/options.php:411,
 #: framework/premium/features/premium-header/items/contacts/options.php:454,
 #: framework/premium/features/premium-header/items/contacts/options.php:494
 msgid "Text Initial"
-msgstr ""
+msgstr "Исходный текст"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:149,
 #: framework/premium/features/premium-header/items/contacts/options.php:423,
 #: framework/premium/features/premium-header/items/contacts/options.php:464,
 #: framework/premium/features/premium-header/items/contacts/options.php:504
 msgid "Link Hover"
-msgstr ""
+msgstr "Ссылка при наведении"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:160
 msgid "Filter Button & Panel"
-msgstr ""
+msgstr "Кнопка и панель фильтра"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:169
 msgid "Filter Icon Type"
-msgstr ""
+msgstr "Тип значка фильтра"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:207
 msgid "Filter Button Visibility"
-msgstr ""
+msgstr "Видимость кнопки фильтра"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:230
 msgid "Panel Reveal"
-msgstr ""
+msgstr "Раскрытие панели"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:237
 msgid "Left Side"
-msgstr ""
+msgstr "Слева"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:238
 msgid "Right Side"
-msgstr ""
+msgstr "Справа"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:243
 msgid "Panel Width"
-msgstr ""
+msgstr "Ширина панели"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:284
 msgid "Panel Shadow"
-msgstr ""
+msgstr "Тень панели"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:302
 msgid "Panel Background"
-msgstr ""
+msgstr "Фон панели"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:334,
 #: framework/features/header/items/account/options.php:958
@@ -1254,11 +1254,11 @@ msgstr "Фон значка закрытия"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:4
 msgid "After installing and activating the WooCommerce Extra extension you will have these features:"
-msgstr ""
+msgstr "После активации расширения WooCommerce Extra вы получите следующий функционал:"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:10
 msgid "Product Quick View"
-msgstr ""
+msgstr "Быстрый просмотр товара"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:14,
 #: framework/premium/extensions/woocommerce-extra/readme.php:29,
@@ -1266,134 +1266,134 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/readme.php:59,
 #: framework/premium/extensions/woocommerce-extra/readme.php:74
 msgid "Navigate to %s."
-msgstr ""
+msgstr "Перейдите в раздел %s."
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:17
 msgid "Customizer ➝ WooCommerce ➝ Product Archives ➝ Card Options ➝ Quick View"
-msgstr ""
+msgstr "Внешний вид ➝ Настроить ➝ WooCommerce ➝ Архивы товаров ➝ Настройки карточки ➝ Быстрый просмотр"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:32
 msgid "Customizer ➝ WooCommerce ➝ Single Product ➝ Floating Cart"
-msgstr ""
+msgstr "Внешний вид ➝ Настроить ➝ WooCommerce ➝ Отдельный товар ➝ Плавающая корзина"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:40
 msgid "Advanced Gallery & Slider"
-msgstr ""
+msgstr "Расширенная галерея и слайдер"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:47
 msgid "Customizer ➝ WooCommerce ➝ Single Product ➝ Gallery Options"
-msgstr ""
+msgstr "Внешний вид ➝ Настроить ➝ WooCommerce ➝ Отдельный товар ➝ Настройки галереи"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:55
 msgid "Share Box"
-msgstr ""
+msgstr "Блок отправки в соцсети"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:62
 msgid "Customizer ➝ WooCommerce ➝ Single Product ➝ Share Box"
-msgstr ""
+msgstr "Внешний вид ➝ Настроить ➝ WooCommerce ➝ Отдельный товар ➝ Блок отправки в соцсети"
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:77
 msgid "Customizer ➝ WooCommerce ➝ General ➝ Products Wishlist"
-msgstr ""
+msgstr "Настройка ➝ WooCommerce ➝ Общее ➝ Список желаний"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:11
 msgid "WP head"
-msgstr ""
+msgstr "Хэдер WP"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:13,
 #: framework/premium/features/content-blocks/hooks-manager.php:22,
 #: framework/premium/features/content-blocks/hooks-manager.php:32
 msgid "Head"
-msgstr ""
+msgstr "Хэдер"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:20
 msgid "WP head start"
-msgstr ""
+msgstr "Начало хэдера WP"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:30
 msgid "WP head end"
-msgstr ""
+msgstr "Конец хэдера WP"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:39
 msgid "Header before"
-msgstr ""
+msgstr "Перед хэдером"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:41,
 #: framework/premium/features/content-blocks/hooks-manager.php:50
 msgid "Header"
-msgstr ""
+msgstr "Хэдер"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:48
 msgid "Header after"
-msgstr ""
+msgstr "После хэдера"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:57
 msgid "Desktop top"
-msgstr ""
+msgstr "Верх десктопа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:59,
 #: framework/premium/features/content-blocks/hooks-manager.php:68,
 #: framework/premium/features/content-blocks/hooks-manager.php:77,
 #: framework/premium/features/content-blocks/hooks-manager.php:86
 msgid "Header offcanvas"
-msgstr ""
+msgstr "Плавающий блок шапки"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:66
 msgid "Desktop bottom"
-msgstr ""
+msgstr "Низ десктопа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:75
 msgid "Mobile top"
-msgstr ""
+msgstr "Верх мобильного"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:84
 msgid "Mobile bottom"
-msgstr ""
+msgstr "Низ мобильного"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:93
 msgid "Sidebar before"
-msgstr ""
+msgstr "До сайдбара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:94,
 #: framework/premium/features/content-blocks/hooks-manager.php:101,
 #: framework/premium/features/content-blocks/hooks-manager.php:108,
 #: framework/premium/features/content-blocks/hooks-manager.php:115
 msgid "Left/Right sidebar"
-msgstr ""
+msgstr "Левый/правый сайдбар"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:100
 msgid "Sidebar start"
-msgstr ""
+msgstr "Начало сайдбара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:107
 msgid "Sidebar end"
-msgstr ""
+msgstr "Конец сайдбара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:114
 msgid "Sidebar after"
-msgstr ""
+msgstr "После сайдбара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:121
 msgid "Dynamic sidebar before"
-msgstr ""
+msgstr "До динамического сайдбара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:122,
 #: framework/premium/features/content-blocks/hooks-manager.php:129,
 #: framework/premium/features/content-blocks/hooks-manager.php:137
 msgid "All widget areas"
-msgstr ""
+msgstr "Все области виджетов"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:128
 msgid "Dynamic sidebar"
-msgstr ""
+msgstr "Динамический сайдбар"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:136
 msgid "Dynamic sidebar after"
-msgstr ""
+msgstr "После динамического сайдбара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:145
 msgid "Before section"
-msgstr ""
+msgstr "После раздела"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:146,
 #: framework/premium/features/content-blocks/hooks-manager.php:154,
@@ -1402,51 +1402,51 @@ msgstr ""
 #: framework/premium/features/content-blocks/hooks-manager.php:178,
 #: framework/premium/features/content-blocks/hooks-manager.php:186
 msgid "Page/post title"
-msgstr ""
+msgstr "Заголовок страницы/записи"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:153,
 #: framework/premium/features/content-blocks/hooks-manager.php:239
 msgid "Before title"
-msgstr ""
+msgstr "Перед заголовком"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:161
 msgid "Before post meta"
-msgstr ""
+msgstr "До метаданных записи"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:169,
 #: framework/premium/features/content-blocks/hooks-manager.php:246
 msgid "After title"
-msgstr ""
+msgstr "После заголовка"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:177
 msgid "After post meta"
-msgstr ""
+msgstr "После метаданных записи"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:185
 msgid "After section"
-msgstr ""
+msgstr "После раздела"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:193
 msgid "Before content"
-msgstr ""
+msgstr "Перед содержимым"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:201,
 #: framework/premium/features/content-blocks/hooks-manager.php:303
 msgid "Top content"
-msgstr ""
+msgstr "Верх содержимого"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:209,
 #: framework/premium/features/content-blocks/hooks-manager.php:325
 msgid "Bottom content"
-msgstr ""
+msgstr "Низ содержимого"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:217
 msgid "After content"
-msgstr ""
+msgstr "После содержимого"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:225
 msgid "Before comments"
-msgstr ""
+msgstr "Перед комментами"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:226,
 #: framework/premium/features/content-blocks/hooks-manager.php:233,
@@ -1455,59 +1455,59 @@ msgstr ""
 #: framework/premium/features/content-blocks/hooks-manager.php:254,
 #: framework/premium/features/content-blocks/hooks-manager.php:261
 msgid "Comments"
-msgstr ""
+msgstr "Комменты"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:232
 msgid "Top comments"
-msgstr ""
+msgstr "Верх комментов"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:253
 msgid "Bottom comments"
-msgstr ""
+msgstr "Низ комментов"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:260
 msgid "After comments"
-msgstr ""
+msgstr "После комментов"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:267,
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:453
 msgid "Before"
-msgstr ""
+msgstr "Перед"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:268,
 #: framework/premium/features/content-blocks/hooks-manager.php:275
 msgid "Loop"
-msgstr ""
+msgstr "Цикл"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:274,
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:464
 msgid "After"
-msgstr ""
+msgstr "После"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:281
 msgid "Start"
-msgstr ""
+msgstr "Начало"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:282,
 #: framework/premium/features/content-blocks/hooks-manager.php:289
 msgid "Loop card"
-msgstr ""
+msgstr "Карточка цикла"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:288
 msgid "End"
-msgstr ""
+msgstr "Конец"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:311
 msgid "After certain number of blocks"
-msgstr ""
+msgstr "После определённого количества блоков"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:318
 msgid "Before certain number of headings"
-msgstr ""
+msgstr "После определённого количества заголовков"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:341
 msgid "Login form start"
-msgstr ""
+msgstr "Начало формы входа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:342,
 #: framework/premium/features/content-blocks/hooks-manager.php:349,
@@ -1520,375 +1520,375 @@ msgstr ""
 #: framework/premium/features/content-blocks/hooks-manager.php:398,
 #: framework/premium/features/content-blocks/hooks-manager.php:405
 msgid "Auth forms"
-msgstr ""
+msgstr "Формы входа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:348
 msgid "Login form end"
-msgstr ""
+msgstr "Конец формы входа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:355
 msgid "Login form modal start"
-msgstr ""
+msgstr "Начало модальной формы входа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:362
 msgid "Login form modal end"
-msgstr ""
+msgstr "Конец модальной формы входа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:369
 msgid "Register form start"
-msgstr ""
+msgstr "Начало формы регистрации"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:376
 msgid "Register form end"
-msgstr ""
+msgstr "Конец формы регистрации"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:383
 msgid "Register form modal start"
-msgstr ""
+msgstr "Начало модальной формы регистрации"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:390
 msgid "Register form modal end"
-msgstr ""
+msgstr "Конец модальной формы регистрации"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:397
 msgid "Lost password form modal start"
-msgstr ""
+msgstr "Начало модальной формы восстановления"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:404
 msgid "Lost password form modal end"
-msgstr ""
+msgstr "Конец модальной формы восстановления"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:412
 msgid "Before main content"
-msgstr ""
+msgstr "До основного содержимого"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:418
 msgid "After main content"
-msgstr ""
+msgstr "После основного содержимого"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:421
 msgid "WooCommerce Global"
-msgstr ""
+msgstr "Весь WooCommerce"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:426
 msgid "Archive description"
-msgstr ""
+msgstr "Описание архива"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:431
 msgid "Before shop loop"
-msgstr ""
+msgstr "До цикла магазина"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:448
 msgid "Before shop loop item title"
-msgstr ""
+msgstr "Перед заголовком товара цикла магазина"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:453
 msgid "After shop loop item title"
-msgstr ""
+msgstr "После заголовка товара цикла магазина"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:458
 msgid "Before shop loop item price"
-msgstr ""
+msgstr "Перед ценой товара цикла магазина"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:463
 msgid "After shop loop item price"
-msgstr ""
+msgstr "После цены товара цикла магазина"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:468
 msgid "After shop loop"
-msgstr ""
+msgstr "После цикла магазина"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:470
 msgid "WooCommerce Archive"
-msgstr ""
+msgstr "Архив WooCommerce"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:475
 msgid "Before single product"
-msgstr ""
+msgstr "До отдельного товара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:493
 msgid "Product meta start"
-msgstr ""
+msgstr "Начало метаданных товара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:497
 msgid "Product meta end"
-msgstr ""
+msgstr "Конец метаданных товара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:501
 msgid "Share"
-msgstr ""
+msgstr "Отправка в соцсети"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:505
 msgid "After single product"
-msgstr ""
+msgstr "После отдельного товара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:511
 msgid "Before single product excerpt"
-msgstr ""
+msgstr "До отрывка отдельного товара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:516
 msgid "After single product excerpt"
-msgstr ""
+msgstr "После отрывка отдельного товара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:521
 msgid "Before single product tabs"
-msgstr ""
+msgstr "До вкладок отдельного товара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:527
 msgid "After single product tabs"
-msgstr ""
+msgstr "После вкладок отдельного товара"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:531
 msgid "WooCommerce Product"
-msgstr ""
+msgstr "Товар WooCommerce"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:536
 msgid "Cart is empty"
-msgstr ""
+msgstr "Корзина пуста"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:540
 msgid "Before cart"
-msgstr ""
+msgstr "До корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:544
 msgid "Before cart table"
-msgstr ""
+msgstr "До таблицы корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:548
 msgid "Before cart contents"
-msgstr ""
+msgstr "После содержимого корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:552
 msgid "Cart contents"
-msgstr ""
+msgstr "Содержимое корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:556
 msgid "After cart contents"
-msgstr ""
+msgstr "После содержимого корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:560
 msgid "Cart coupon"
-msgstr ""
+msgstr "Купон корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:564
 msgid "Cart actions"
-msgstr ""
+msgstr "Действия корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:568
 msgid "After cart table"
-msgstr ""
+msgstr "После таблицы корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:572
 msgid "Cart collaterals"
-msgstr ""
+msgstr "Collaterals корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:576
 msgid "Before cart totals"
-msgstr ""
+msgstr "До итогов корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:580
 msgid "Cart totals before order total"
-msgstr ""
+msgstr "Итоги корзины до итогов заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:584
 msgid "Cart totals after order total"
-msgstr ""
+msgstr "Итоги корзины после итогов заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:588
 msgid "Proceed to checkout"
-msgstr ""
+msgstr "Перейти к оформлению заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:592
 msgid "After cart totals"
-msgstr ""
+msgstr "После итогов корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:596
 msgid "After cart"
-msgstr ""
+msgstr "После корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:601
 msgid "Before Mini Cart"
-msgstr ""
+msgstr "До мини-корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:606
 msgid "Before Mini Cart Contents"
-msgstr ""
+msgstr "До содержимого мини-корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:611
 msgid "Mini Cart Contents"
-msgstr ""
+msgstr "Содержимое мини-корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:616
 msgid "Widget Shopping Cart Before Buttons"
-msgstr ""
+msgstr "Виджет корзины перед кнопками"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:621
 msgid "Widget Shopping Cart After Buttons"
-msgstr ""
+msgstr "Виджет корзины после кнопок"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:626
 msgid "After Mini Cart"
-msgstr ""
+msgstr "После мини-корзины"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:628
 msgid "WooCommerce Cart"
-msgstr ""
+msgstr "Корзина WooCommerce"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:634
 msgid "Before checkout form"
-msgstr ""
+msgstr "До формы оформления заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:638
 msgid "Before customer details"
-msgstr ""
+msgstr "До сведений о клиенте"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:642
 msgid "After customer details"
-msgstr ""
+msgstr "После сведений о клиенте"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:646
 msgid "Checkout billing"
-msgstr ""
+msgstr "Выставление счёта"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:650
 msgid "Before checkout billing form"
-msgstr ""
+msgstr "До формы выставления счёта"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:654
 msgid "After checkout billing form"
-msgstr ""
+msgstr "После формы выставления счёта"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:658
 msgid "Before order notes"
-msgstr ""
+msgstr "До примечания к заказу"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:662
 msgid "After order notes"
-msgstr ""
+msgstr "После примечания к заказу"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:666
 msgid "Checkout shipping"
-msgstr ""
+msgstr "Условия доставки"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:670
 msgid "Checkout before order review"
-msgstr ""
+msgstr "Оформление перед отзывом"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:674
 msgid "Checkout order review"
-msgstr ""
+msgstr "Просмотр оформляемого заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:678
 msgid "Review order before cart contents"
-msgstr ""
+msgstr "До содержимого корзины просмотра заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:682
 msgid "Review order after cart contents"
-msgstr ""
+msgstr "После содержимого корзины просмотра заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:686
 msgid "Review order before order total"
-msgstr ""
+msgstr "До итога просмотра заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:690
 msgid "Review order after order total"
-msgstr ""
+msgstr "После итога просмотра заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:694
 msgid "Review order before payment"
-msgstr ""
+msgstr "До платежа просмотра заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:698
 msgid "Review order before submit"
-msgstr ""
+msgstr "До платежа просмотра заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:702
 msgid "Review order after submit"
-msgstr ""
+msgstr "После подтверждения просмотра заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:706
 msgid "Review order after payment"
-msgstr ""
+msgstr "После платежа просмотра заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:710
 msgid "Checkout after order review"
-msgstr ""
+msgstr "Оформление после отзыва"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:714
 msgid "After checkout form"
-msgstr ""
+msgstr "После формы оформлени заказа"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:717
 msgid "WooCommerce Checkout"
-msgstr ""
+msgstr "Оформление заказа WooCommerce"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:723
 msgid "Before my account"
-msgstr ""
+msgstr "Перед профилем"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:727
 msgid "Before account navigation"
-msgstr ""
+msgstr "Перед навигацией профиля"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:731
 msgid "Account navigation"
-msgstr ""
+msgstr "Навигация профиля"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:735
 msgid "After account navigation"
-msgstr ""
+msgstr "После навигации профиля"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:739
 msgid "Account content"
-msgstr ""
+msgstr "Содержимое профиля"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:743
 msgid "Account dashboard"
-msgstr ""
+msgstr "Консоль профиля"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:747
 msgid "After my account"
-msgstr ""
+msgstr "После профиля"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:749,
 #: framework/features/header/items/account/options.php:17,
 #: framework/features/header/items/account/options.php:18
 msgid "WooCommerce Account"
-msgstr "Учётная запись WooCommerce"
+msgstr "WooCommerce-профиль"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:755
 msgid "WP footer"
-msgstr ""
+msgstr "Футер WP"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:756,
 #: framework/premium/features/content-blocks/hooks-manager.php:764,
 #: framework/premium/features/content-blocks/hooks-manager.php:772
 msgid "Footer"
-msgstr ""
+msgstr "футер"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:763
 msgid "Footer before"
-msgstr ""
+msgstr "До футера"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:771
 msgid "Footer after"
-msgstr ""
+msgstr "После футера"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:786
 msgid "Custom Hook (%s)"
-msgstr ""
+msgstr "Произвольный зацеп (%s)"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:792,
 #: framework/premium/features/content-blocks/options/hook.php:197
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:90
 msgid "After Block Number"
-msgstr ""
+msgstr "После номера блока"
 
 #: framework/premium/features/content-blocks/hooks-manager.php:798,
 #: framework/premium/features/content-blocks/options/hook.php:214
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:112
 msgid "Before Heading Number"
-msgstr ""
+msgstr "До номера заголовка"
 
 #: framework/extensions/widgets/widgets/ct-about-me/widget.php:13
 msgid "About Me"
@@ -2294,16 +2294,16 @@ msgstr "Настройка: статус авторизации"
 
 #: framework/features/header/items/account/options.php:36
 msgid "Logged In Options"
-msgstr "Настройки авторизованного"
+msgstr "Опции авторизованных"
 
 #: framework/features/header/items/account/options.php:41
 msgid "Logged Out Options"
-msgstr "Настройки неавторизованного"
+msgstr "Опции неавторизованных"
 
 #: framework/features/header/items/account/options.php:61,
 #: framework/features/header/items/account/options.php:311
 msgid "Account Action"
-msgstr "Действия с учетной записью"
+msgstr "Действие профиля"
 
 #: framework/features/header/items/account/options.php:74
 msgid "Select Menu"
@@ -2321,12 +2321,12 @@ msgstr "Управляйте своими пунктами меню в разд�
 #: framework/features/header/items/account/options.php:101,
 #: framework/features/header/items/account/options.php:326
 msgid "Custom Page Link"
-msgstr "Ссылка на произвольную страницу"
+msgstr "Ссылка на страницу"
 
 #: framework/features/header/items/account/options.php:116,
 #: framework/features/header/items/account/options.php:342
 msgid "Account Image"
-msgstr "Изображение учётной записи"
+msgstr "Изображение профиля"
 
 #: framework/features/header/items/account/options.php:122
 msgid "Avatar"
@@ -2359,7 +2359,7 @@ msgstr "Текст ярлыка"
 #: framework/features/header/items/account/options.php:293,
 #: framework/features/header/items/account/views/login.php:67
 msgid "My Account"
-msgstr "Моя учётная запись"
+msgstr "Мой профиль"
 
 #: framework/features/header/items/account/options.php:503,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:135
@@ -2452,125 +2452,125 @@ msgstr "Видимость элемента"
 #: framework/features/header/items/account/view.php:25,
 #: framework/features/header/items/account/view.php:27
 msgid "Account header icon"
-msgstr "Значок заголовка учётной записи"
+msgstr "Значок заголовка профиля"
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:403
 msgid "You have no %s fields declared for this custom post type."
-msgstr ""
+msgstr "У вас нет полей %s, заявленных для этого произвольного типа записей."
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:415,
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:836,
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:847
 msgid "Field"
-msgstr ""
+msgstr "Поле"
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:427,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:60
 msgid "Label"
-msgstr ""
+msgstr "Ярлык"
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:476
 msgid "Fallback"
-msgstr ""
+msgstr "Обратная совместимость"
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:488
 msgid "%s Field"
-msgstr ""
+msgstr "Поле %s"
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:834
 msgid "%s %s Font"
-msgstr ""
+msgstr "Шрифт %s %s"
 
 #: framework/premium/extensions/post-types-extra/includes/dynamic-data.php:845
 msgid "%s %s Color"
-msgstr ""
+msgstr "Цвет %s %s"
 
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:9,
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:50
 msgid "Read Time"
-msgstr ""
+msgstr "Время чтения"
 
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:88
 msgid " min"
-msgstr ""
+msgstr "минута"
 
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:91
 msgid " mins"
-msgstr ""
+msgstr "мин."
 
 #: framework/premium/extensions/post-types-extra/includes/filtering.php:286
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 #: framework/premium/extensions/post-types-extra/includes/taxonomies-options.php:129
 msgid "Featured Image"
-msgstr ""
+msgstr "Изображение"
 
 #: framework/premium/extensions/post-types-extra/includes/taxonomies-options.php:134
 msgid "Accent Color"
-msgstr ""
+msgstr "Цвет акцента"
 
 #: framework/premium/extensions/shortcuts/views/bar.php:31,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list.php:137
 msgid "Wish List"
-msgstr ""
+msgstr "Список желаний"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-helpers.php:42,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-helpers.php:50
 msgid "Add to wishlist"
-msgstr ""
+msgstr "Добавить в список желаний"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:9
 msgid "Select a page"
-msgstr ""
+msgstr "Выберите страницу"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:18
 msgid "Products Wishlist"
-msgstr ""
+msgstr "Список желаний"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:28
 msgid "Show Wishlist Page To"
-msgstr ""
+msgstr "Показать страницу списка желаний"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:34
 msgid "Logged Users"
-msgstr ""
+msgstr "Вошедшим"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:35
 msgid "All Users"
-msgstr ""
+msgstr "Всем пользователям"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:45
 msgid "Wish List Page"
-msgstr ""
+msgstr "Страница списка желаний"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:51
 msgid "The page you select here will display the wish list for your logged out users."
-msgstr ""
+msgstr " На странице, которую вы выберете здесь, будет отображаться список желаний для невошедших в систему пользователей."
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:60
 msgid "Display Wishlist Button On"
-msgstr ""
+msgstr "Показать кнопку списка желаний на"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:64
 msgid "Archive Pages"
-msgstr ""
+msgstr "Страницах архивов"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:73
 msgid "Single Product Pages"
-msgstr ""
+msgstr "Страницах отдельных товаров"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:82
 msgid "Quick View Modal"
-msgstr ""
+msgstr "Карточке быстрого просмотра"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:95
 msgid "AJAX Add To Cart"
-msgstr ""
+msgstr "AJAX-добавление в корзину "
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:131
 msgid "Archive Button"
-msgstr ""
+msgstr "Кнопка в архивах"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:159,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:191,
@@ -2582,369 +2582,369 @@ msgstr ""
 #: framework/premium/features/premium-header/items/language-switcher/options.php:284,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:313
 msgid "Hover/Active"
-msgstr ""
+msgstr "При наведении/активная"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:208
 msgid "Single Product Button"
-msgstr ""
+msgstr "Кнопка отдельного товара"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-options.php:284
 msgid "Quick View Modal Button"
-msgstr ""
+msgstr "Кнопка быстрого просмотра"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:152
 msgid "You don't have any products in your wish list yet."
-msgstr ""
+msgstr "В вашем списке желаний ещё нет товаров."
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:14
 msgid "Add to cart"
-msgstr ""
+msgstr "Добавить в корзину"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:89,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:113
 msgid "Remove Product"
-msgstr ""
+msgstr "Удалить товар"
 
 #: framework/premium/extensions/woocommerce-extra/includes/woo-import-export.php:34
 msgid "Blocksy Variation Images"
-msgstr ""
+msgstr "Изображения вариаций"
 
 #: framework/premium/features/content-blocks/options/404.php:33,
 #: framework/premium/features/content-blocks/options/header.php:35,
 #: framework/premium/features/content-blocks/options/hook.php:40,
 #: framework/premium/features/content-blocks/options/popup.php:42
 msgid "Container Structure"
-msgstr ""
+msgstr "Структура контейнера"
 
 #: framework/premium/features/content-blocks/options/404.php:59,
 #: framework/premium/features/content-blocks/options/header.php:63,
 #: framework/premium/features/content-blocks/options/hook.php:68
 msgid "Narrow Width"
-msgstr ""
+msgstr "Узкая ширина"
 
 #: framework/premium/features/content-blocks/options/404.php:64,
 #: framework/premium/features/content-blocks/options/header.php:68,
 #: framework/premium/features/content-blocks/options/hook.php:73
 msgid "Normal Width"
-msgstr ""
+msgstr "Нормальная ширина"
 
 #: framework/premium/features/content-blocks/options/404.php:70,
 #: framework/premium/features/content-blocks/options/header.php:74,
 #: framework/premium/features/content-blocks/options/hook.php:79
 msgid "Content Area Style"
-msgstr ""
+msgstr "Стиль области содержимого"
 
 #: framework/premium/features/content-blocks/options/404.php:84,
 #: framework/premium/features/content-blocks/options/header.php:88,
 #: framework/premium/features/content-blocks/options/hook.php:93
 msgid "Content Area Vertical Spacing"
-msgstr ""
+msgstr "Вертикальные отступы области содержимого"
 
 #: framework/premium/features/content-blocks/options/404.php:95,
 #: framework/premium/features/content-blocks/options/header.php:99,
 #: framework/premium/features/content-blocks/options/hook.php:104
 msgid "Top & Bottom"
-msgstr ""
+msgstr "Верху и внизу"
 
 #: framework/premium/features/content-blocks/options/404.php:98,
 #: framework/premium/features/content-blocks/options/header.php:102,
 #: framework/premium/features/content-blocks/options/hook.php:107
 msgid "Only Top"
-msgstr ""
+msgstr "Только вверху"
 
 #: framework/premium/features/content-blocks/options/404.php:101,
 #: framework/premium/features/content-blocks/options/header.php:105,
 #: framework/premium/features/content-blocks/options/hook.php:110
 msgid "Only Bottom"
-msgstr ""
+msgstr "Только внизу"
 
 #: framework/premium/features/content-blocks/options/hook.php:148
 msgid "Location & Priority"
-msgstr ""
+msgstr "Положение и приоритет"
 
 #: framework/premium/features/content-blocks/options/hook.php:181
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:72
 msgid "Custom Hook"
-msgstr ""
+msgstr "Произвольный зацеп"
 
 #: framework/premium/features/content-blocks/options/hook.php:256,
 #: framework/premium/features/content-blocks/options/popup.php:296
 msgid "Expiration Date/Time"
-msgstr ""
+msgstr "Дата/время завершения"
 
 #: framework/premium/features/content-blocks/options/hook.php:283
 msgid "Block Position"
-msgstr ""
+msgstr "Положение блока"
 
 #: framework/premium/features/content-blocks/options/hook.php:290
 msgid "Fixed"
-msgstr ""
+msgstr "Фиксированное"
 
 #: framework/premium/features/content-blocks/options/hook.php:300
 msgid "Location"
-msgstr ""
+msgstr "Положение"
 
 #: framework/premium/features/content-blocks/options/popup.php:50
 msgid "Popup Position"
-msgstr ""
+msgstr "Положение модального окна"
 
 #: framework/premium/features/content-blocks/options/popup.php:57
 msgid "Popup Size"
-msgstr ""
+msgstr "Размер модального окна"
 
 #: framework/premium/features/content-blocks/options/popup.php:63
 msgid "Small Size"
-msgstr ""
+msgstr "Маленький размер"
 
 #: framework/premium/features/content-blocks/options/popup.php:64
 msgid "Medium Size"
-msgstr ""
+msgstr "Средний размер"
 
 #: framework/premium/features/content-blocks/options/popup.php:65
 msgid "Large Size"
-msgstr ""
+msgstr "Большой размер"
 
 #: framework/premium/features/content-blocks/options/popup.php:66
 msgid "Custom Size"
-msgstr ""
+msgstr "Произвольный"
 
 #: framework/premium/features/content-blocks/options/popup.php:76
 msgid "Max Width"
-msgstr ""
+msgstr "Максимальная ширина"
 
 #: framework/premium/features/content-blocks/options/popup.php:92
 msgid "Max Height"
-msgstr ""
+msgstr "Максимальная высота"
 
 #: framework/premium/features/content-blocks/options/popup.php:111
 msgid "Popup Animation"
-msgstr ""
+msgstr "Анимация модального окна"
 
 #: framework/premium/features/content-blocks/options/popup.php:117
 msgid "Fade in fade out"
-msgstr ""
+msgstr "Нарастание/затухание"
 
 #: framework/premium/features/content-blocks/options/popup.php:118
 msgid "Zoom in zoom out"
-msgstr ""
+msgstr "Наезд/отъезд"
 
 #: framework/premium/features/content-blocks/options/popup.php:119
 msgid "Slide in from left"
-msgstr ""
+msgstr "Скольжение слева"
 
 #: framework/premium/features/content-blocks/options/popup.php:120
 msgid "Slide in from right"
-msgstr ""
+msgstr "Скольжение справа"
 
 #: framework/premium/features/content-blocks/options/popup.php:121
 msgid "Slide in from top"
-msgstr ""
+msgstr "Скольжение сверху"
 
 #: framework/premium/features/content-blocks/options/popup.php:122
 msgid "Slide in from bottom"
-msgstr ""
+msgstr "Скольжение снизу"
 
 #: framework/premium/features/content-blocks/options/popup.php:127
 msgid "Animation Speed"
-msgstr ""
+msgstr "Скорость анимации"
 
 #: framework/premium/features/content-blocks/options/popup.php:144
 msgid "Entrance Value"
-msgstr ""
+msgstr "Входное значение"
 
 #: framework/premium/features/content-blocks/options/popup.php:156
 msgid "Trigger Condition"
-msgstr ""
+msgstr "Условия срабатывания"
 
 #: framework/premium/features/content-blocks/options/popup.php:181
 msgid "Element Class"
-msgstr ""
+msgstr "Класс элемента"
 
 #: framework/premium/features/content-blocks/options/popup.php:188
 msgid "Separate each class by comma if you have multiple elements."
-msgstr ""
+msgstr " Разделяйте каждый класс запятой, если у вас несколько элементов."
 
 #: framework/premium/features/content-blocks/options/popup.php:200
 msgid "Scroll Direction"
-msgstr ""
+msgstr "Направление прокрутки"
 
 #: framework/premium/features/content-blocks/options/popup.php:205
 msgid "Scroll Down"
-msgstr ""
+msgstr "Прокрутка вниз"
 
 #: framework/premium/features/content-blocks/options/popup.php:206
 msgid "Scroll Up"
-msgstr ""
+msgstr "Прокрутка вверх"
 
 #: framework/premium/features/content-blocks/options/popup.php:211
 msgid "Scroll Distance"
-msgstr ""
+msgstr "Длина прокрутки"
 
 #: framework/premium/features/content-blocks/options/popup.php:221
 msgid "Set the scroll distance till the popup block will appear."
-msgstr ""
+msgstr "Установите дистанцию прокрутки до появления всплывающего блока."
 
 #: framework/premium/features/content-blocks/options/popup.php:233
 msgid "Inactivity Time"
-msgstr ""
+msgstr "Время бездействия"
 
 #: framework/premium/features/content-blocks/options/popup.php:239
 msgid "Set the inactivity time (in seconds) till the popup block will appear."
-msgstr ""
+msgstr "Установите время бездействия (в секундах) до появления всплывающего блока."
 
 #: framework/premium/features/content-blocks/options/popup.php:251
 msgid "After X Time"
-msgstr ""
+msgstr "Через определённое время"
 
 #: framework/premium/features/content-blocks/options/popup.php:257
 msgid "Set after how much time (in seconds) the popup block will appear."
-msgstr ""
+msgstr "Установите, через какое время (в секундах) появится всплывающий блок."
 
 #: framework/premium/features/content-blocks/options/popup.php:269
 msgid "Trigger Popup Only Once"
-msgstr ""
+msgstr "Активировать всплывающее окно лишь один раз"
 
 #: framework/premium/features/content-blocks/options/popup.php:272
 msgid "If the close button is clicked the popup won't be triggered anymore for the current visitor."
-msgstr ""
+msgstr "После нажатия кнопки закрытия, всплывающее окно больше не будет отображаться данному посетителю."
 
 #: framework/premium/features/content-blocks/options/popup.php:347
 msgid "Padding"
-msgstr ""
+msgstr "Внутренний отступ"
 
 #: framework/premium/features/content-blocks/options/popup.php:357,
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:266,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:465
 msgid "Border Radius"
-msgstr ""
+msgstr "Скругление углов"
 
 #: framework/premium/features/content-blocks/options/popup.php:386
 msgid "Popup Offset"
-msgstr ""
+msgstr "Смещение модального окна"
 
 #: framework/premium/features/content-blocks/options/popup.php:396
 msgid "Container Overflow"
-msgstr ""
+msgstr "Переполнение контейнера"
 
 #: framework/premium/features/content-blocks/options/popup.php:403
 msgid "Hidden"
-msgstr ""
+msgstr "Скрытие"
 
 #: framework/premium/features/content-blocks/options/popup.php:404
 msgid "Visible"
-msgstr ""
+msgstr "Отображение"
 
 #: framework/premium/features/content-blocks/options/popup.php:405
 msgid "Scroll"
-msgstr ""
+msgstr "Прокрутка"
 
 #: framework/premium/features/content-blocks/options/popup.php:407
 msgid "Control what happens to the content that is too big to fit into the popup."
-msgstr ""
+msgstr "Контролируйте, что происходит с содержимым, которое слишком велико для всплывающего окна."
 
 #: framework/premium/features/content-blocks/options/popup.php:411
 msgid "Close Button"
-msgstr ""
+msgstr "Кнопка закрытия"
 
 #: framework/premium/features/content-blocks/options/popup.php:419
 msgid "Inside"
-msgstr ""
+msgstr "Внутри"
 
 #: framework/premium/features/content-blocks/options/popup.php:420
 msgid "Outside"
-msgstr ""
+msgstr "Снаружи"
 
 #: framework/premium/features/content-blocks/options/popup.php:494
 msgid "Popup Background"
-msgstr ""
+msgstr "Заливка модального окна"
 
 #: framework/premium/features/content-blocks/options/popup.php:508
 msgid "Popup Backdrop Background"
-msgstr ""
+msgstr "Задний фон модального окна"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:25
 msgid "Posts Filter"
-msgstr ""
+msgstr "Фильтр записей"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:60
 msgid "Filtering Behavior"
-msgstr ""
+msgstr "Поведение фильтрации"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:68
 msgid "Instant Reload"
-msgstr ""
+msgstr "Мгновенная перезагрузка"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:69
 msgid "Page Reload"
-msgstr ""
+msgstr "Перезагрузка страницы"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:92
 msgid "Items Horizontal Spacing"
-msgstr ""
+msgstr "Горизонтальный интервал"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:104,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:360
 msgid "Items Vertical Spacing"
-msgstr ""
+msgstr "Вертикальный интервал"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:116
 msgid "Container Bottom Spacing"
-msgstr ""
+msgstr "Нижний отступ контейнера"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:128
 msgid "Horizontal Alignment"
-msgstr ""
+msgstr "Горизонтальное выравнивание"
 
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:251
 msgid "Button Padding"
-msgstr ""
+msgstr "Внутненние отступы кнопки"
 
 #: framework/premium/extensions/post-types-extra/includes/read-progress/customizer.php:4
 msgid "Read Progress"
-msgstr ""
+msgstr "Прогресс чтения"
 
 #: framework/premium/extensions/post-types-extra/includes/read-progress/customizer.php:24
 msgid "Indicator Height"
-msgstr ""
+msgstr "Высота индикатора"
 
 #: framework/premium/extensions/post-types-extra/includes/read-progress/customizer.php:34
 msgid "Auto Hide"
-msgstr ""
+msgstr "Автоскрытие"
 
 #: framework/premium/extensions/post-types-extra/includes/read-progress/customizer.php:38
 msgid "Automatically hide the read progress bar once you arrive at the bottom of the article."
-msgstr ""
+msgstr "Автоматическое скрытие индикатора прогресса чтения, как только статья заканчивается."
 
 #: framework/premium/extensions/post-types-extra/includes/read-progress/customizer.php:71
 msgid "Main Color"
-msgstr ""
+msgstr "Главный цвет"
 
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:49
 msgid "Icon Badge"
-msgstr ""
+msgstr "Подпись значка"
 
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:146
 msgid "Label Font Color"
-msgstr ""
+msgstr "Цвет шрифта ярлыка"
 
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/view.php:21,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/view.php:24,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/view.php:30
 msgid "Wishlist header icon"
-msgstr ""
+msgstr "Значок заголовка списка желаний"
 
 #: framework/premium/features/premium-header/items/contacts/config.php:4
 msgid "Contacts"
-msgstr ""
+msgstr "Контакты"
 
 #: framework/premium/features/premium-header/items/contacts/options.php:239
 msgid "Open Links In New Tab"
-msgstr ""
+msgstr "Открытие ссылок в новой вкладке"
 
 #: framework/premium/features/premium-header/items/contacts/options.php:259,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:95
 msgid "Items Spacing"
-msgstr ""
+msgstr "Расстояние между элементами"
 
 #: framework/premium/features/premium-header/items/contacts/options.php:834,
 #: framework/premium/features/premium-header/items/divider/options.php:107,
@@ -2952,19 +2952,19 @@ msgstr ""
 #: framework/premium/features/premium-header/items/language-switcher/options.php:323,
 #: framework/premium/features/premium-header/items/search-input/options.php:724
 msgid "Margin"
-msgstr ""
+msgstr "Отступы"
 
 #: framework/premium/features/premium-header/items/dark-mode-switcher/config.php:5
 msgid "Dark Mode"
-msgstr ""
+msgstr "Тёмный режим"
 
 #: framework/premium/features/premium-header/items/divider/config.php:4
 msgid "Divider"
-msgstr ""
+msgstr "Разделитель"
 
 #: framework/premium/features/premium-header/items/divider/options.php:6
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 #: framework/premium/features/premium-header/items/language-switcher/config.php:6
 msgid "Languages"
@@ -2972,94 +2972,94 @@ msgstr "Языки"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:17
 msgid "Top Level Options"
-msgstr ""
+msgstr "Параметры верхнего уровня"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:37
 msgid "Dropdown"
-msgstr ""
+msgstr "Выпадающий список"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:47
 msgid "Display"
-msgstr ""
+msgstr "Отображение"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:59
 msgid "Flag"
-msgstr ""
+msgstr "Флаг"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:73
 msgid "Label Style"
-msgstr ""
+msgstr "Стиль ярлыка"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:79
 msgid "Long"
-msgstr ""
+msgstr "Длинный"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:80
 msgid "Short"
-msgstr ""
+msgstr "Короткий"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:112
 msgid "Hide Current Language"
-msgstr ""
+msgstr "Скрывать текущий язык"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:343
 msgid "Dropdown Options"
-msgstr ""
+msgstr "Настройки выпадающего списка"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:352
 msgid "Dropdown Top Offset"
-msgstr ""
+msgstr "Смещение сверху выпадающего списка"
 
 #: framework/premium/features/premium-header/items/search-input/config.php:4
 msgid "Search Box"
-msgstr ""
+msgstr "Поисковая строка"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:42
 msgid "Placeholder Text"
-msgstr ""
+msgstr "Текст-заполнитель"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:52
 msgid "Input Maximum Width"
-msgstr ""
+msgstr "Максимальная ширина поля"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:64
 msgid "Input Height"
-msgstr ""
+msgstr "Высота поля"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:79
 msgid "Live Results"
-msgstr ""
+msgstr "Моментальные результаты"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:90
 msgid "Live Results Images"
-msgstr ""
+msgstr "Изображения моментальных результатов"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:101
 msgid "Search Through Criteria"
-msgstr ""
+msgstr "Поиск по критериям"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:102
 msgid "Chose in which post types do you want to perform searches."
-msgstr ""
+msgstr "Выберите, в каких типах записей будет выполняться поиск."
 
 #: framework/premium/features/premium-header/items/search-input/options.php:314,
 #: framework/premium/features/premium-header/items/search-input/options.php:343,
 #: framework/premium/features/premium-header/items/search-input/options.php:375,
 #: framework/premium/features/premium-header/items/search-input/options.php:405
 msgid "Input Icon Color"
-msgstr ""
+msgstr "Цвет значка ввода"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:744
 msgid "Dropdown Text Color"
-msgstr ""
+msgstr "Цвет текста выпадающего списка"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:775
 msgid "Dropdown Background"
-msgstr ""
+msgstr "Фон выпадающего списка"
 
 #: framework/premium/features/premium-header/items/widget-area-1/config.php:4
 msgid "Widget Area"
-msgstr ""
+msgstr "Область виджета"
 
 #: framework/extensions/newsletter-subscribe/admin-static/js/ListPicker.js:14
 #: framework/extensions/newsletter-subscribe/admin-static/js/ListPicker/Implementation.js:63
@@ -3071,7 +3071,7 @@ msgstr "Загрузка…"
 #: framework/extensions/newsletter-subscribe/admin-static/js/ListPicker/Implementation.js:64
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/ListPicker.js:85
 msgid "Invalid API Key..."
-msgstr "Неверный API ключ..."
+msgstr "Неверный API-ключ..."
 
 #: framework/extensions/newsletter-subscribe/admin-static/js/ListPicker/Implementation.js:92
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/ListPicker.js:113
@@ -3088,11 +3088,11 @@ msgstr "Информацию о том, как сгенерировать клю
 
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:156
 msgid "More info on how to generate an API key for Mailerlite can be found %shere%s."
-msgstr "Информацию о том, как сгенерировать ключ API для Mailerlite, можно найти %sздесь%s."
+msgstr "Информацию о том, как сгенерировать ключ API ��ля Mailerlite, можно найти %sздесь%s."
 
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:173
 msgid "API Key"
-msgstr "Ключ API"
+msgstr "API-ключ"
 
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:207
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/NewsletterSubscribe.js:74
@@ -3123,7 +3123,7 @@ msgstr "Введите свои данные API поставщика рассы
 
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:91
 msgid "Select Provider"
-msgstr "Выберите поставщика"
+msgstr "Выберите сервис"
 
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:98
 msgid "Pick Mailing Service"
@@ -3165,366 +3165,366 @@ msgstr "Ярлык категории"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:108
 msgid "Adobe Fonts Settings"
-msgstr ""
+msgstr "Настройки шрифтов Adobe"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:113
 msgid "You can find %shere%s your Project ID. Once you insert your Project ID and click the \"Fetch fonts\" button, your fonts will become available in all theme’s typography options."
-msgstr ""
+msgstr "Вы можете найти ID своего проекта %sздесь%s. Как только вы вставите свой идентификатор проекта и нажмете кнопку «Извлечь шрифты», подгруженные шрифты станут доступны во всех параметрах типографики темы."
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:141
 msgid "Project ID"
-msgstr ""
+msgstr "ID проекта"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:188
 msgid "Fetch Fonts"
-msgstr ""
+msgstr "Извлечь шрифты"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:195
 msgid "Please enter the valid Project ID to get the kit details"
-msgstr ""
+msgstr "Введите действительный идентификатор проекта, чтобы получить информацию о наборе."
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:214
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:56
 msgid "Variations"
-msgstr ""
+msgstr "Вариации"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:96
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:94
 msgid "Edit Settings"
-msgstr ""
+msgstr "Править настройки"
 
 #: framework/premium/extensions/adobe-typekit/static/js/EditSettings.js:98
 msgid "Add/Edit Fonts"
-msgstr ""
+msgstr "Добавить/править шрифт"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:104
 msgid "There are no custom fonts at the moment, hit the button below and upload some."
-msgstr ""
+msgstr "На данный момент пользовательских шрифтов нет, нажмите кнопку ниже чтобы загрузить их."
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:117
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:246
 msgid "Upload Simple Font"
-msgstr ""
+msgstr "Загрузить простой шрифт"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:125
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:270
 msgid "Upload Variable Font"
-msgstr ""
+msgstr "Загрузить вариативный шрифт"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:23
 msgid "Custom Fonts Settings"
-msgstr ""
+msgstr "Пользовательские настройки шрифтов"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:25
 msgid "Here you can see all your custom fonts that could be used in all typography options across the theme."
-msgstr ""
+msgstr "Здесь вы можете увидеть все свои пользовательские шрифты, которые можно использовать во всех вариантах типографики в теме."
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:39
 msgid "Dynamic Font"
-msgstr ""
+msgstr "Динамический шрифт"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:43
 msgid "Variable font"
-msgstr ""
+msgstr "Вариативный шрифт"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:74
 msgid "Edit Font"
-msgstr ""
+msgstr "Править шрифт"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:91
 msgid "Remove Font"
-msgstr ""
+msgstr "Удалить шрифт"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/EditSettings.js:79
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:162
 msgid "Change"
-msgstr ""
+msgstr "Изменить"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:163
 msgid "Choose"
-msgstr ""
+msgstr "Выбрать"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:174
 #: static/js/options/ConditionsManager.js:91
 msgid "Select variation"
-msgstr "Выберите вариант"
+msgstr "Выберите вариацию"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:194
 msgid "Regular"
-msgstr ""
+msgstr "Обычный"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:201
 msgid "Italic"
-msgstr ""
+msgstr "Курсивный"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:250
 msgid "Upload only the %s.woff2%s or %s.ttf%s font file formats (see browser coverage %shere%s). Use %sthis converter tool%s if you don't have these font formats."
-msgstr ""
+msgstr "Загружайте только файлы шрифтов в форматах %s.woff2%s или %s.ttf%s (смотрите покрытие браузера %sздесь%s). Используйте %sэтот конвертер%s, если у вас нет таких форматов шрифтов."
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:274
 msgid "Upload only the %s.woff2%s or %s.ttf%s font file formats. Please don't convert non-woff variable fonts by yourself. Instead, just ask the font provider to hand a correct file otherwise the %svariable%s font will loose its capabilities."
-msgstr ""
+msgstr "Загружайте только файлы шрифтов в формате %s.woff2%s или %s.ttf%s. Не конвертируйте вариативные шрифты, отличные от woff, самостоятельно. Вместо этого просто попросите поставщика шрифтов передать правильный файл, иначе %sвариативный%s шрифт потеряет свои возможности."
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:300
 msgid "Font Name"
-msgstr ""
+msgstr "Название шрифта"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:343
 msgid "Add/upload another font variation"
-msgstr ""
+msgstr "Добавить/загрузить другую вариацию шрифта"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:364
 msgid "Back to All Fonts"
-msgstr ""
+msgstr "Назад ко всем шрифтам"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:389
 msgid "Save Custom Font"
-msgstr ""
+msgstr "Сохранить пользовательский шрифт"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:82
 msgid "Add Variation"
-msgstr ""
+msgstr "Добавить вариацию"
 
 #: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:138
 msgid "By checking this option you will download and replace the existing Google Fonts with the above ones."
-msgstr ""
+msgstr "Включив опцию, вы загрузите и замените существующие шрифты Google указанными выше."
 
 #: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:207
 msgid "Sync Google Fonts"
-msgstr ""
+msgstr "Синхронизировать шрифты Google"
 
 #: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:51
 msgid "Add Google Fonts"
-msgstr ""
+msgstr "Добавить шрифты Google"
 
 #: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:60
 msgid "Local Google Fonts (GDPR)"
-msgstr ""
+msgstr "Локальные шрифты Google (GDPR)"
 
 #: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:63
 msgid "Download a font and serve it directly from your server, this is handy for those who want to comply with GDPR regulations or serve the font via CDN."
-msgstr ""
+msgstr "Загрузите шрифт и подгружайте его прямо со своего сервера. Это удобно для тех, кто хочет соблюдать правила GDPR или раздавать шрифт через CDN."
 
 #: framework/premium/extensions/mega-menu/static/js/SettingsManager.js:138
 msgid "Item Settings"
-msgstr ""
+msgstr "Настройки элемента"
 
 #: framework/premium/extensions/sidebars/static/js/BlockWidgetControls.js:59
 msgid "Remove Sidebar"
-msgstr ""
+msgstr "Удалить сайдбар"
 
 #: framework/premium/extensions/sidebars/static/js/SettingsManager.js:60
 msgid "%s - Sidebar Display Conditions"
-msgstr ""
+msgstr "%s - условия отображения сайдбара"
 
 #: framework/premium/extensions/sidebars/static/js/SettingsManager.js:68
 msgid "Add one or more conditions in order to display your sidebar."
-msgstr ""
+msgstr "Добавьте одно или несколько условий для отображения сайдбара."
 
 #: framework/premium/extensions/sidebars/static/js/main.js:45
 msgid "Enter a name in the input below and hit the Create Sidebar button."
-msgstr ""
+msgstr "Введите название в поле ниже и нажмите кнопку «Создать сайдбар»."
 
 #: framework/premium/extensions/sidebars/static/js/main.js:52
 msgid "Sidebar name"
-msgstr ""
+msgstr "Название сайдбара"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:106
 msgid "White Label Settings"
-msgstr ""
+msgstr "Настройки белой этикетки"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:110
 msgid "Remove any link that points to Blocksy website and change the dashboard identity. These options are mostly used by agencies and developers who are building websites for clients."
-msgstr ""
+msgstr "Удалите все ссылки, указывающие на сайт Blocksy, и измените идентификатор панели инструментов. Эти настройки полезны агентствами и разработчиками, которые создают веб-сайты для клиентов."
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:132
 msgid "Advanced"
-msgstr ""
+msgstr "Дополнительно"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:147
 msgid "Agency Details"
-msgstr ""
+msgstr "Информация об агентстве"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:155
 msgid "Agency Name"
-msgstr ""
+msgstr "Название компании"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:186
 msgid "Agency URL"
-msgstr ""
+msgstr "URL сайта агенства"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:217
 msgid "Agency Support/Contact Form URL"
-msgstr ""
+msgstr "URL контактной формы/портала поддержки агентства"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:252
 msgid "Theme Details"
-msgstr ""
+msgstr "Детали темы"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:260
 msgid "Theme Name"
-msgstr ""
+msgstr "Название темы"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:291
 msgid "Theme Description"
-msgstr ""
+msgstr "Описание темы"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:322
 msgid "Theme Screenshot URL"
-msgstr ""
+msgstr "URL скриншота темы"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:419
 msgid "You can insert the link to a self hosted image or upload one. The recommended image size is 1200px wide by 900px tall."
-msgstr ""
+msgstr "Вы можете вставить ссылку на собственное изображение или загрузить его. Рекомендуемый размер изображения: 1200 пикселей в ширину и 900 пикселей в высоту."
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:429
 msgid "Theme Icon URL"
-msgstr ""
+msgstr "URL значка темы"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:526
 msgid "You can insert the link to a self hosted image or upload one. The recommended image size is 18px wide by 18px tall."
-msgstr ""
+msgstr "Вы можете вставить ссылку на собственное изображение или загрузить его. Рекомендуемый размер изображения: 18 на 18 пикселей."
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:536
 msgid "Gutenberg Options Panel Icon URL"
-msgstr ""
+msgstr "URL значка панели параметров Gutenberg'а"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:633
 msgid "You can insert the link to a self hosted image or upload one. Please note that only icons in SVG format are allowed here to not break the editor interactiveness."
-msgstr ""
+msgstr "Вы можете вставить ссылку на собственное изображение или загрузить его. Обратите внимание, что здесь разрешены только иконки в формате SVG, чтобы не нарушать интерактивность редактора."
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:646
 msgid "Plugin Details"
-msgstr ""
+msgstr "Детали плагина"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:654
 msgid "Plugin Name"
-msgstr ""
+msgstr "Название плагина"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:685
 msgid "Plugin Description"
-msgstr ""
+msgstr "Описание плагина"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:716
 msgid "Plugin Thumbnail URL"
-msgstr ""
+msgstr "URL миниатюры плагина"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:807
 msgid "Choose File"
-msgstr ""
+msgstr "Выберите файл"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:814
 msgid "You can insert the link to a self hosted image or upload one. The recommended image size is 256px wide by 256px tall."
-msgstr ""
+msgstr "Вы можете вставить ссылку на собственное изображение или загрузить его. Рекомендуемый размер изображения: 256 на 256 пикселей."
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:864
 msgid "Hide Account Menu Item"
-msgstr ""
+msgstr "Скрыть в меню профиль"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:872
 msgid "Hide Starter Sites Tab"
-msgstr ""
+msgstr "Скрыть вкладку стартовых сайтов"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:879
 msgid "Hide Useful Plugins Tab"
-msgstr ""
+msgstr "Скрыть вкладку полезных плагинов"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:887
 msgid "Hide Changelog Tab"
-msgstr ""
+msgstr "Скрыть вкладку журнала изменений"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:895
 msgid "Hide Support Section"
-msgstr ""
+msgstr "Скрыть раздел поддержки"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:903
 msgid "Hide Beta Updates Section"
-msgstr ""
+msgstr "Скрыть раздел бета-обновлений"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:940
 msgid "Hide White Label Extension"
-msgstr ""
+msgstr "Скрыть расширение белой этикетки"
 
 #: framework/premium/extensions/white-label/dashboard-static/js/EditSettings.js:957
 msgid "Please note that the white label extension will be hidden if this option is enabled. In order to bring it back you have to hit the SHIFT key and click on the dashboard logo."
-msgstr ""
+msgstr "Обратите внимание, что расширение белой этикетки будет скрыто, если включить эту опцию. Чтобы вернуть его, вам нужно будет нажать клавишу SHIFT и нажать на логотип консоли темы."
 
 #: framework/premium/static/js/components/BetaConsent.js:54
 msgid "Receive βeta Updates"
-msgstr ""
+msgstr "Получать бета-обновления"
 
 #: framework/premium/static/js/components/BetaConsent.js:60
 msgid "Receive beta updates and help us test the new features and improve them by submitting feedback. Please note, installing beta versions on production websites is not recommended, test them on staging or localhost environments."
-msgstr ""
+msgstr "Получайте бета-обновления и помогайте нам тестировать новые функции и улучшать их, отправляя отзывы. Обратите внимание, что не рекомендуется устанавливать бета-версии на рабочие веб-сайты, тестируйте их на тестовых или локальных площадках."
 
 #: framework/premium/static/js/components/BetaConsent.js:73
 msgid "Are you sure?"
-msgstr ""
+msgstr "Уверены?"
 
 #: framework/premium/static/js/components/BetaConsent.js:76
 msgid "Installing beta updates on your production site can give unexpected results."
-msgstr ""
+msgstr "Установка бета-обновлений на рабочий сайт может привести к непредвиденным результатам."
 
 #: framework/premium/static/js/components/BetaConsent.js:83
 msgid "Even having your website completely broken is not excluded. Please proceed with caution."
-msgstr ""
+msgstr "Не исключена даже полная поломка сайта. Пожалуйста, действуйте с осторожностью."
 
 #: framework/premium/static/js/footer/CloneItem.js:65
 #: framework/premium/static/js/header/CloneItem.js:65
 msgid "Clone Item"
-msgstr ""
+msgstr "Дублировать элемент"
 
 #: framework/premium/static/js/footer/CloneItem.js:88
 #: framework/premium/static/js/header/CloneItem.js:88
 msgid "Remove Item"
-msgstr ""
+msgstr "Удалить объект"
 
 #: framework/premium/static/js/footer/CreateFooter.js:107
 #: framework/premium/static/js/header/CreateHeader.js:106
 msgid "Copy elements & styles from"
-msgstr ""
+msgstr "Использовать образец настроек"
 
 #: framework/premium/static/js/footer/CreateFooter.js:118
 msgid "Picker Footer"
-msgstr ""
+msgstr "Подборщик подвала"
 
 #: framework/premium/static/js/footer/CreateFooter.js:133
 #: framework/premium/static/js/footer/PanelsManager.js:52
 msgid "Global Footer"
-msgstr ""
+msgstr "Глобальный подвал"
 
 #: framework/premium/static/js/footer/CreateFooter.js:137
 #: framework/premium/static/js/header/CreateHeader.js:138
 msgid "Secondary"
-msgstr ""
+msgstr "Второстепенный"
 
 #: framework/premium/static/js/footer/CreateFooter.js:141
 #: framework/premium/static/js/header/CreateHeader.js:142
 msgid "Centered"
-msgstr ""
+msgstr "Центрированный"
 
 #: framework/premium/static/js/footer/CreateFooter.js:172
 msgid "Create New Footer"
-msgstr ""
+msgstr "Создать новый подвал"
 
 #: framework/premium/static/js/footer/CreateFooter.js:50
 msgid "Create new footer"
-msgstr ""
+msgstr "Создание нового подвала"
 
 #: framework/premium/static/js/footer/CreateFooter.js:53
 msgid "Create a new footer and assign it to different pages or posts based on your conditions."
-msgstr ""
+msgstr "Создайте новый подвал и назначьте его разным страницам или записям, в соответствии со своими целями."
 
 #: framework/premium/static/js/footer/CreateFooter.js:72
 msgid "Footer name"
-msgstr ""
+msgstr "Название подвала"
 
 #: framework/premium/static/js/footer/EditConditions.js:100
 msgid "Add one or more conditions in order to display your footer."
-msgstr ""
+msgstr "Добавьте одно или несколько условий для отображения подвала."
 
 #: framework/premium/static/js/footer/EditConditions.js:84
 #: static/js/header/EditConditions.js:83
@@ -3534,15 +3534,15 @@ msgstr "Создать/изменить условия"
 
 #: framework/premium/static/js/footer/PanelsManager.js:162
 msgid "Remove footer"
-msgstr ""
+msgstr "Удалить подвал"
 
 #: framework/premium/static/js/footer/PanelsManager.js:192
 msgid "Remove Footer"
-msgstr ""
+msgstr "Удаление подвала"
 
 #: framework/premium/static/js/footer/PanelsManager.js:195
 msgid "You are about to remove a custom footer, are you sure you want to continue?"
-msgstr ""
+msgstr "Вы собираетесь удалить пользовательский подвал. Уверены, что хотите продолжить?"
 
 #: framework/premium/static/js/footer/PanelsManager.js:211
 #: framework/premium/static/js/hooks/CodeEditor.js:60
@@ -3618,13 +3618,13 @@ msgstr "Расширенное меню"
 
 #: framework/extensions-manager.php:294
 msgid "Create beautiful mega menus, assign icons add badges to menu items, and content blocks inside menu items."
-msgstr "Созд��вайте красивые мегаменю, назначайте пунктам меню значки и ярлыки, вставляйте блоки содержимого в элементы меню."
+msgstr "Создавайте красивые мегаменю, назначайте пунктам меню значки и отметки, вставляйте блоки содержимого в элементы меню."
 
 #: framework/extensions-manager.php:305,
 #: framework/premium/extensions/shortcuts/config.php:4,
 #: framework/premium/extensions/shortcuts/customizer.php:503
 msgid "Shortcuts Bar"
-msgstr "Панель ярлыков"
+msgstr "Мобильная панель кнопок"
 
 #: framework/extensions-manager.php:306
 msgid "Transform your website into a app like by displaying a neat shortcuts bar at the bottom of the vieport."
@@ -3945,7 +3945,7 @@ msgstr "Анонимизация IP"
 
 #: framework/features/google-analytics.php:102
 msgid "Enable Google Analytics IP Anonymization for enhanced privacy. More info and instructions can be found %shere%s."
-msgstr "Включите анонимность IP-адресов Google Analytics для повышения конфиденциальности. Более подробную информацию и инструкции можно найти %sздесь%s."
+msgstr "Анонимность IP-адресов для Google Analytics для повышения конфиденциальности. Подробная информация и инструкции %sздесь%s."
 
 #: framework/features/opengraph-meta-data.php:17
 msgid "OpenGraph Meta Data"
@@ -3953,7 +3953,7 @@ msgstr "Метаданные Opengraph"
 
 #: framework/features/opengraph-meta-data.php:20
 msgid "Enable the OpenGraph rich meta data features for your website."
-msgstr "Включите на своём сайте функционал расширенных метаданных OpenGraph."
+msgstr "Функционал расширенных метаданных OpenGraph."
 
 #: framework/features/opengraph-meta-data.php:29
 msgid "Facebook Page URL"
@@ -4138,7 +4138,7 @@ msgstr "Дизайн"
 #: framework/premium/features/premium-header/items/language-switcher/options.php:291,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:382
 msgid "Font Color"
-msgstr "Цвет шрифта"
+msgstr "вет шрифта"
 
 #: framework/extensions/cookies-consent/customizer.php:112,
 #: framework/extensions/cookies-consent/customizer.php:142,
@@ -4490,7 +4490,7 @@ msgstr "Видимость"
 #: framework/premium/extensions/post-types-extra/includes/read-progress/customizer.php:56,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:73
 msgid "Desktop"
-msgstr "Компьютер"
+msgstr "Десктоп"
 
 #: framework/extensions/newsletter-subscribe/customizer.php:138,
 #: framework/extensions/trending/customizer.php:260,
@@ -4518,7 +4518,7 @@ msgstr "Компьютер"
 #: framework/premium/extensions/post-types-extra/includes/read-progress/customizer.php:57,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:74
 msgid "Tablet"
-msgstr "Планшет"
+msgstr " Планшет"
 
 #: framework/extensions/newsletter-subscribe/customizer.php:139,
 #: framework/extensions/trending/customizer.php:261,
@@ -4776,7 +4776,7 @@ msgstr "Ничего не найдено"
 
 #: framework/extensions/product-reviews/extension.php:450
 msgid "Not found in Trash"
-msgstr "Не найдено в корзине"
+msgstr "В корзине не найдено"
 
 #: framework/extensions/product-reviews/extension.php:484,
 #: framework/extensions/product-reviews/extension.php:494
@@ -4927,7 +4927,7 @@ msgstr "Открывать в новой вкладке"
 
 #: framework/extensions/product-reviews/metabox.php:110
 msgid "Sponsored Attribute"
-msgstr ""
+msgstr "Рекламный атрибут"
 
 #: framework/extensions/product-reviews/metabox.php:132
 msgid "Read More Button Label"
@@ -5063,7 +5063,7 @@ msgstr "Шрифт записей"
 
 #: framework/extensions/widgets/config.php:4
 msgid "Add new handcrafted widgets to your sidebars! Social Network Icons, Newsletter Subscribe, Contact Info, Custom Ads and even a Popular/Recent Posts are the choices available."
-msgstr "Используйте новые созданные вручную виджеты на свои сайдбары! Доступны значки соцсетей, подписка на рассылку, контактная информация, персонализированные объявления и даже популярные/недавние записи."
+msgstr "Используйте новые виджеты на своих сайдбарах! Доступны значки соцсетей, подписка на рассылку, контактная информация, персонализированные объявления и даже популярные/недавние записи."
 
 #: framework/features/header/account-modal.php:47,
 #: framework/features/header/items/account/options.php:481,
@@ -5145,7 +5145,7 @@ msgstr "Условия отображения"
 
 #: framework/premium/features/content-blocks.php:39
 msgid "Hooks Locations"
-msgstr ""
+msgstr "Расположение зацепов"
 
 #: framework/premium/features/content-blocks.php:204,
 #: framework/premium/extensions/shortcuts/customizer.php:517
@@ -5154,19 +5154,19 @@ msgstr "Тип"
 
 #: framework/premium/features/content-blocks.php:205
 msgid "Location/Trigger"
-msgstr ""
+msgstr "Положение/триггер"
 
 #: framework/premium/features/content-blocks.php:206
 msgid "Conditions"
-msgstr ""
+msgstr "Условия"
 
 #: framework/premium/features/content-blocks.php:207
 msgid "Output"
-msgstr ""
+msgstr "Вывод"
 
 #: framework/premium/features/content-blocks.php:208
 msgid "Enable/Disable"
-msgstr ""
+msgstr "Включить/выключить"
 
 #: framework/premium/features/content-blocks.php:228,
 #: framework/premium/extensions/shortcuts/customizer.php:705,
@@ -5185,100 +5185,100 @@ msgstr "Отсутствует"
 #: framework/premium/features/content-blocks.php:229,
 #: framework/premium/features/content-blocks/options/popup.php:163
 msgid "On scroll"
-msgstr ""
+msgstr "При прокрутке"
 
 #: framework/premium/features/content-blocks.php:230,
 #: framework/premium/features/content-blocks/options/popup.php:164
 msgid "On scroll to element"
-msgstr ""
+msgstr "При прокрутке до элемента"
 
 #: framework/premium/features/content-blocks.php:231,
 #: framework/premium/features/content-blocks/options/popup.php:165
 msgid "On page load"
-msgstr ""
+msgstr "При загрузке страницы"
 
 #: framework/premium/features/content-blocks.php:232,
 #: framework/premium/features/content-blocks/options/popup.php:166
 msgid "After inactivity"
-msgstr ""
+msgstr "После бездействия"
 
 #: framework/premium/features/content-blocks.php:233,
 #: framework/premium/features/content-blocks/options/popup.php:167
 msgid "After x time"
-msgstr ""
+msgstr "Через X минут"
 
 #: framework/premium/features/content-blocks.php:234,
 #: framework/premium/features/content-blocks/options/popup.php:168
 msgid "On page exit intent"
-msgstr ""
+msgstr "При попытке ухода"
 
 #: framework/premium/features/content-blocks.php:238
 msgid "Down"
-msgstr ""
+msgstr "Вниз"
 
 #: framework/premium/features/content-blocks.php:239
 msgid "Up"
-msgstr ""
+msgstr "Вверх"
 
 #: framework/premium/features/content-blocks.php:616,
 #: framework/premium/features/content-blocks.php:622
 msgid "Content Blocks"
-msgstr ""
+msgstr "Блоки содержимого"
 
 #: framework/premium/features/content-blocks.php:617
 msgid "Content Block"
-msgstr ""
+msgstr "Блок содержимого"
 
 #: framework/premium/features/content-blocks.php:618
 msgid "Add New"
-msgstr ""
+msgstr "Создать"
 
 #: framework/premium/features/content-blocks.php:619
 msgid "Add New Content Block"
-msgstr ""
+msgstr "Создать блок содержимого"
 
 #: framework/premium/features/content-blocks.php:620
 msgid "Edit Content Block"
-msgstr ""
+msgstr "Править блок содержимого"
 
 #: framework/premium/features/content-blocks.php:621
 #: framework/premium/static/js/hooks/CreateHook.js:32
 msgid "New Content Block"
-msgstr ""
+msgstr "Новый блок содержимого"
 
 #: framework/premium/features/content-blocks.php:623
 msgid "View Content Block"
-msgstr ""
+msgstr "Просмотр блока содержимого"
 
 #: framework/premium/features/content-blocks.php:624
 msgid "Search Content Blocks"
-msgstr ""
+msgstr "Поиск блоков содержимого"
 
 #: framework/premium/features/content-blocks.php:625
 msgid "Nothing found"
-msgstr ""
+msgstr "Ничего не найдено"
 
 #: framework/premium/features/content-blocks.php:626
 msgid "Nothing found in Trash"
-msgstr ""
+msgstr "В корзине ничего не найдено"
 
 #: framework/premium/features/premium-footer.php:30,
 #: framework/premium/features/premium-footer.php:41
 msgid "Footer Menu 1"
-msgstr ""
+msgstr "Меню подвала 1"
 
 #: framework/premium/features/premium-footer.php:42,
 #: framework/premium/features/premium-footer/items/menu-secondary/config.php:4
 msgid "Footer Menu 2"
-msgstr ""
+msgstr "Меню подвала 2"
 
 #: framework/premium/features/premium-header.php:42
 msgid "Header Menu 3"
-msgstr ""
+msgstr "Меню шапки 3"
 
 #: framework/premium/features/premium-header.php:102
 msgid "Header Widget Area "
-msgstr ""
+msgstr "Области виджетов шапки"
 
 #: framework/premium/features/premium-header.php:158,
 #: framework/premium/extensions/mega-menu/options.php:420,
@@ -5299,7 +5299,7 @@ msgstr "Размер значков"
 #: framework/premium/features/premium-header.php:184,
 #: framework/premium/extensions/mega-menu/options.php:456
 msgid "Icon Position"
-msgstr ""
+msgstr "Положения значка"
 
 #: framework/premium/features/premium-header.php:191,
 #: framework/premium/extensions/mega-menu/options.php:463,
@@ -5405,61 +5405,61 @@ msgstr "Регистрация"
 
 #: framework/premium/extensions/adobe-typekit/config.php:4
 msgid "Adobe Fonts"
-msgstr ""
+msgstr "Шрифты Adobe"
 
 #: framework/premium/extensions/adobe-typekit/config.php:5
 msgid "Connect your Adobe Fonts project and use the selected fonts throughout Blocksy and your favorite page builder."
-msgstr ""
+msgstr "Подключите свой проект Adobe Fonts и используйте выбранные шрифты в теме сайта и конструкторе страниц."
 
 #: framework/premium/extensions/code-snippets/config.php:5
 msgid "Inject custom code snippets throughout your website. The extension works globally or on a per post/page basis."
-msgstr ""
+msgstr "Внедрение произвольных фрагментов кода в веб-сайт. Расширение работает глобально или отдельно для каждой записи/страницы."
 
 #: framework/premium/extensions/code-snippets/extension.php:38,
 #: framework/premium/extensions/code-snippets/extension.php:78,
 #: framework/premium/extensions/code-snippets/extension.php:117
 msgid "After body open scripts"
-msgstr ""
+msgstr "После скриптов открытия body"
 
 #: framework/premium/extensions/code-snippets/readme.php:4
 msgid "After activating the Custom Code Snippets extension you will have two ways to manage your snippets:"
-msgstr ""
+msgstr "После активации расширения «Произвольный код» у вас будет два способа управления вашими фрагментами кода:"
 
 #: framework/premium/extensions/code-snippets/readme.php:9
 msgid "Globally"
-msgstr ""
+msgstr "Глобально"
 
 #: framework/premium/extensions/code-snippets/readme.php:13
 msgid "Navigate to %s and place there your header, body or footer scripts."
-msgstr ""
+msgstr "Переходите в раздел %s и вставляйте свои скрипты в хэдер, бади или футер."
 
 #: framework/premium/extensions/code-snippets/readme.php:16
 msgid "Customizer ➝ Custom Code Snippets"
-msgstr ""
+msgstr "Внешний вид ➝ Настроить ➝ Произвольный код"
 
 #: framework/premium/extensions/code-snippets/readme.php:24
 msgid "Per page/post"
-msgstr ""
+msgstr "Постранично"
 
 #: framework/premium/extensions/code-snippets/readme.php:28
 msgid "Edit your page or post, click on %s, scroll down and you will see the %2s panel."
-msgstr ""
+msgstr "Войдите в режим редактирования страницы или записи, нажмите %s, прокрутите вниз, и вы увидите панель %2s."
 
 #: framework/premium/extensions/code-snippets/readme.php:32
 msgid "%s Page Settings"
-msgstr ""
+msgstr "Настройки страницы %s"
 
 #: framework/premium/extensions/custom-fonts/config.php:4
 msgid "Upload an unlimited number of custom fonts or variable fonts and use them throughout Blocksy and your favorite page builder."
-msgstr ""
+msgstr "Загружайте неограниченное количество пользовательских или вариативных шрифтов и используйте их на своём сайте."
 
 #: framework/premium/extensions/local-google-fonts/config.php:4
 msgid "Serve your chosen Google Fonts from your own web server. This will increase the loading speed and makes sure your website complies with the privacy regulations."
-msgstr ""
+msgstr "Подгружайте выбранные шрифты Google с вашего собственного веб-сервера. Это повысит скорость загрузки и обеспечит соответствие вашего сайта правилам конфиденциальности."
 
 #: framework/premium/extensions/mega-menu/config.php:5
 msgid "Create beautiful personalised menus that set your website apart from the others. Add icons and badges to your entries and even add Content Blocks inside your dropdowns."
-msgstr ""
+msgstr "Создавайте красивые меню, которые будут отличать ваш сайт от прочих. Добавляйте значки и метки к пунктам меню или даже добавляйте блоки контента в раскрывающиеся списки."
 
 #: framework/premium/extensions/mega-menu/config.php:9,
 #: framework/premium/extensions/shortcuts/config.php:12
@@ -5471,4 +5471,4 @@ msgstr "Настроить"
 
 #: framework/premium/extensions/mega-menu/extension.php:99
 msgid "Menu Item Settings"
-msgstr ""
+msgstr "Настройки пункта меню"

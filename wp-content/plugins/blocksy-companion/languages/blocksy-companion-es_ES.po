@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.3.1\n"
+"X-Generator: GlotPress/3.0.0-alpha.4\n"
 "Language: es\n"
 "Project-Id-Version: Blocksy Companion Pro\n"
 
@@ -4283,7 +4283,7 @@ msgstr ""
 
 #: framework/extensions/cookies-consent/helpers.php:78
 msgid "I accept the %sPrivacy Policy%s"
-msgstr "Acepto la %spolítica de privacidad%s"
+msgstr "Acepto la %spol��tica de privacidad%s"
 
 #: framework/extensions/cookies-consent/readme.php:1,
 #: framework/extensions/newsletter-subscribe/readme.php:1,

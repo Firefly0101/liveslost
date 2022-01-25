@@ -5,7 +5,7 @@ Requires PHP: 7.0
 Tested up to: 5.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 1.8.16
+Stable tag: 1.8.17
 
 == Description ==
 
@@ -23,6 +23,15 @@ It runs and adds its enhancements only if the Blocksy theme is installed and act
 2. Activate the plugin by going to **Plugins** page in WordPress admin and clicking on **Activate** link.
 
 == Changelog ==
+1.8.17: 2022-01-21
+- Improvement: Product reviews image aspect ratio filter
+- Improvement: Customizer export/import module improvement
+- Improvement: Demo content importer module improvement
+- Fix: Account modal does not pop up, if account element is in off canvas menu
+
+1.8.17-beta13: 2022-01-19
+- Improvement: General fixes and improvements
+
 1.8.16: 2021-12-29
 - Improvement: Handle account modal opened from offcanvas menu
 - Improvement: Login modal markup improvements

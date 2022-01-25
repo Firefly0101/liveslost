@@ -82,7 +82,10 @@ const CustomizerOptionsManager = () => {
 				<h3>{__('Export Options', 'blocksy-companion')}</h3>
 
 				<div className="ct-option-description">
-					{__('Easily export the theme customizer settings.', 'blocksy-companion')}
+					{__(
+						'Easily export the theme customizer settings.',
+						'blocksy-companion'
+					)}
 				</div>
 			</div>
 
@@ -105,7 +108,10 @@ const CustomizerOptionsManager = () => {
 				<h3>{__('Import Options', 'blocksy-companion')}</h3>
 
 				<div className="ct-option-description">
-					{__('Easily import the theme customizer settings.', 'blocksy-companion')}
+					{__(
+						'Easily import the theme customizer settings.',
+						'blocksy-companion'
+					)}
 				</div>
 			</div>
 
@@ -218,7 +224,10 @@ const CustomizerOptionsManager = () => {
 										e.preventDefault()
 										setIsCopyingOptions('child')
 									}}>
-									{__('Copy From Child Theme', 'blocksy-companion')}
+									{__(
+										'Copy From Child Theme',
+										'blocksy-companion'
+									)}
 								</button>
 							</section>
 						</div>
@@ -235,7 +244,10 @@ const CustomizerOptionsManager = () => {
 										e.preventDefault()
 										setIsCopyingOptions('parent')
 									}}>
-									{__('Copy From Parent Theme', 'blocksy-companion')}
+									{__(
+										'Copy From Parent Theme',
+										'blocksy-companion'
+									)}
 								</button>
 							</section>
 						</div>
@@ -255,10 +267,16 @@ const CustomizerOptionsManager = () => {
 
 						<h2 className="ct-modal-title">
 							{!ct_customizer_localizations.is_parent_theme &&
-								__('Copy From Parent Theme', 'blocksy-companion')}
+								__(
+									'Copy From Parent Theme',
+									'blocksy-companion'
+								)}
 
 							{ct_customizer_localizations.is_parent_theme &&
-								__('Copy From Child Theme', 'blocksy-companion')}
+								__(
+									'Copy From Child Theme',
+									'blocksy-companion'
+								)}
 						</h2>
 						<p>
 							{!ct_customizer_localizations.is_parent_theme &&
@@ -434,24 +452,47 @@ const CustomizerOptionsManager = () => {
 													.json()
 													.then(
 														({ success, data }) => {
-															if (success) {
-																var blob = new Blob(
-																	[data.data],
-																	{
-																		type:
-																			'application/octet-stream;charset=utf-8',
-																	}
-																)
-
-																saveAs(
-																	blob,
-																	`blocksy-export.dat`
-																)
-
-																setIsExporting(
-																	false
-																)
+															if (!success) {
+																return
 															}
+
+															console.log(
+																'here',
+																data.site_url
+															)
+
+															var blob = new Blob(
+																[data.data],
+																{
+																	type:
+																		'application/octet-stream;charset=utf-8',
+																}
+															)
+
+															saveAs(
+																blob,
+																`${data.site_url
+																	.replace(
+																		'http://',
+																		''
+																	)
+																	.replace(
+																		'https://',
+																		''
+																	)
+																	.replace(
+																		'.',
+																		'-'
+																	)
+																	.replace(
+																		'/',
+																		'-'
+																	)}-export.dat`
+															)
+
+															setIsExporting(
+																false
+															)
 														}
 													)
 											}

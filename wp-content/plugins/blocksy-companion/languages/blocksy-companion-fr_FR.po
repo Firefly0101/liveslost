@@ -2,18 +2,18 @@
 # This file is distributed under the same license as the Blocksy Companion Pro package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-27 12:10:44+0000\n"
+"PO-Revision-Date: 2022-01-13 00:23:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/2.3.1\n"
+"X-Generator: GlotPress/3.0.0-alpha.4\n"
 "Language: fr\n"
 "Project-Id-Version: Blocksy Companion Pro\n"
 
 #: framework/premium/static/js/header/CreateHeader.js:117
 msgid "Picker header"
-msgstr ""
+msgstr "En-tête du sélecteur"
 
 #: framework/premium/static/js/header/CreateHeader.js:134
 #: static/js/header/PanelsManager.js:58
@@ -58,15 +58,15 @@ msgstr ""
 
 #: framework/premium/static/js/hooks/CodeEditor.js:45
 msgid "Are you sure you want to continue?"
-msgstr ""
+msgstr "Confirmez-vous vouloir poursuivre ?"
 
 #: framework/premium/static/js/hooks/CreateHook.js:105
 msgid "Content Block Name"
-msgstr ""
+msgstr "Nom du bloc de contenu"
 
 #: framework/premium/static/js/hooks/CreateHook.js:131
 msgid "Create Content Block"
-msgstr ""
+msgstr "Créer un bloc de contenu"
 
 #: framework/premium/static/js/hooks/CreateHook.js:35
 msgid "Please select the type of your content block and place it in the location you want based on your display and user conditions."
@@ -74,88 +74,88 @@ msgstr ""
 
 #: framework/premium/static/js/hooks/CreateHook.js:55
 msgid "Select template type..."
-msgstr ""
+msgstr "Sélectionnez le type de modèle…"
 
 #: framework/premium/static/js/hooks/CreateHook.js:67
 msgid "Custom Content/Hooks"
-msgstr ""
+msgstr "Contenu personnalisé/crochets"
 
 #: framework/premium/static/js/hooks/CreateHook.js:76
 msgid "Popup Template"
-msgstr ""
+msgstr "Modèle de fenêtre surgissante"
 
 #: framework/premium/static/js/hooks/CreateHook.js:82
 msgid "404 Page Template"
-msgstr ""
+msgstr "Modèle de page 404"
 
 #: framework/premium/static/js/hooks/CreateHook.js:91
 msgid "Header Template"
-msgstr ""
+msgstr "Modèle d’en-tête"
 
 #: framework/premium/static/js/hooks/CreateHook.js:97
 msgid "Footer Template"
-msgstr ""
+msgstr "Modèle de pied de page"
 
 #: framework/premium/static/js/options/IconPicker.js:133
 msgid "Change Icon"
-msgstr ""
+msgstr "Changer l'icône"
 
 #: framework/premium/static/js/options/IconPicker.js:150
 msgid "Remove Icon"
-msgstr ""
+msgstr "Retirer l'icône"
 
 #: framework/premium/static/js/options/IconPicker.js:156
 msgid "Select"
-msgstr ""
+msgstr "Sélectionner"
 
 #: framework/premium/static/js/options/IconPicker/CustomIcon.js:22
 msgid "Upload Icon"
-msgstr ""
+msgstr "Téléverser une icône"
 
 #: framework/premium/static/js/options/IconPicker/CustomIcon.js:34
 msgid "For performance and customization reasons, only SVG files are allowed."
-msgstr ""
+msgstr "Pour des raisons de performance et de personnalisation, seuls les fichiers SVG sont autorisés."
 
 #: framework/premium/static/js/options/IconPicker/IconsList.js:24
 msgid "Search icon"
-msgstr ""
+msgstr "Rechercher une icône"
 
 #: framework/premium/static/js/options/IconPicker/Modal.js:135
 msgid "Predefined"
-msgstr ""
+msgstr "Prédéfinie"
 
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:156
 msgid "Add New Location"
-msgstr ""
+msgstr "Ajouter un nouvel emplacement"
 
 #: framework/premium/static/js/options/MultipleLocationsSelect.js:47
 msgid "Select location"
-msgstr ""
+msgstr "Sélectionner l’emplacement"
 
 #: framework/premium/static/js/typography/providers/kadence.js:15
 #: framework/premium/static/js/typography/providers/plus-addons.js:18
 #: framework/premium/static/js/typography/providers/stackable.js:18
 msgid "Blocksy Local Google Fonts"
-msgstr ""
+msgstr "Polices Google locales Blocksy"
 
 #: framework/premium/static/js/typography/providers/kadence.js:19
 #: framework/premium/static/js/typography/providers/plus-addons.js:22
 #: framework/premium/static/js/typography/providers/stackable.js:22
 msgid "Blocksy Typekit"
-msgstr ""
+msgstr "Kit de caractères Blocksy"
 
 #: framework/premium/static/js/typography/providers/kadence.js:20
 #: framework/premium/static/js/typography/providers/stackable.js:23
 msgid "Blocksy Custom Fonts"
-msgstr ""
+msgstr "Polices personnalisées Blocksy"
 
 #: framework/premium/static/js/typography/providers/plus-addons.js:23
 msgid "Blocksy Custom"
-msgstr ""
+msgstr "Blocksy personnalisé"
 
 #: framework/premium/static/js/typography/providers/plus-addons.js:24
 msgid "Blocksy System"
-msgstr ""
+msgstr "Système Blocksy"
 
 #: static/js/dashboard.js:30
 msgid "Starter Sites"
@@ -188,7 +188,7 @@ msgstr "Vous êtes sur le point de retirer un en-tête personnalisé, confirmez-
 
 #: static/js/helpers/SubmitSupport.js:18
 msgid "Need help or advice?"
-msgstr "Besoin d’aide ou de conseils ? "
+msgstr "Besoin d’aide ou de conseils ?"
 
 #: static/js/helpers/SubmitSupport.js:20
 msgid "Got a question or need help with the theme? You can always submit a support ticket or ask for help in our friendly Facebook community."
@@ -653,105 +653,105 @@ msgstr "URL de prévisualisation"
 
 #: framework/premium/extensions/mega-menu/extension.php:257
 msgid "New"
-msgstr ""
+msgstr "Nouveau"
 
 #: framework/premium/extensions/mega-menu/options.php:16,
 #: framework/premium/extensions/mega-menu/options.php:528
 msgid "Mega Menu Settings"
-msgstr ""
+msgstr "Réglages du méga menu"
 
 #: framework/premium/extensions/mega-menu/options.php:27
 msgid "Dropdown Width"
-msgstr ""
+msgstr "Largeur du menu déroulant"
 
 #: framework/premium/extensions/mega-menu/options.php:35,
 #: framework/premium/extensions/mega-menu/options.php:48
 msgid "Content Width"
-msgstr ""
+msgstr "Largeur du contenu"
 
 #: framework/premium/extensions/mega-menu/options.php:36,
 #: framework/premium/extensions/mega-menu/options.php:57
 msgid "Full Width"
-msgstr ""
+msgstr "Pleine largeur"
 
 #: framework/premium/extensions/mega-menu/options.php:37
 msgid "Custom Width"
-msgstr ""
+msgstr "Largeur personnalisée"
 
 #: framework/premium/extensions/mega-menu/options.php:56
 msgid "Default Width"
-msgstr ""
+msgstr "Largeur par Défaut"
 
 #: framework/premium/extensions/mega-menu/options.php:85
 msgid "Columns"
-msgstr ""
+msgstr "Colonnes"
 
 #: framework/premium/extensions/mega-menu/options.php:320
 msgid "Custom Content"
-msgstr ""
+msgstr "Contenu personnalisé"
 
 #: framework/premium/extensions/mega-menu/options.php:324
 msgid "Content Type"
-msgstr ""
+msgstr "Type de contenu"
 
 #: framework/premium/extensions/mega-menu/options.php:331
 msgid "Default (Menu Item)"
-msgstr ""
+msgstr "Par défaut (élément de menu)"
 
 #: framework/premium/extensions/mega-menu/options.php:332
 msgid "Custom Text"
-msgstr ""
+msgstr "Texte personnalisé"
 
 #: framework/premium/extensions/mega-menu/options.php:333
 msgid "Content Block/Hook"
-msgstr ""
+msgstr "Bloc de contenu/crochet"
 
 #: framework/premium/extensions/mega-menu/options.php:392,
 #: framework/premium/extensions/mega-menu/options.php:708
 msgid "Item Label Settings"
-msgstr ""
+msgstr "Réglages du libellé de l’élément"
 
 #: framework/premium/extensions/mega-menu/options.php:397
 msgid "Item Label"
-msgstr ""
+msgstr "Libellé de l’élément"
 
 #: framework/premium/extensions/mega-menu/options.php:405
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: framework/premium/extensions/mega-menu/options.php:406,
 #: framework/premium/features/content-blocks/options/404.php:104,
 #: framework/premium/features/content-blocks/options/header.php:108,
 #: framework/premium/features/content-blocks/options/hook.php:113
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: framework/premium/extensions/mega-menu/options.php:407
 msgid "Heading"
-msgstr ""
+msgstr "Titre"
 
 #: framework/premium/extensions/mega-menu/options.php:413
 msgid "Label Link"
-msgstr ""
+msgstr "Lien du libellé"
 
 #: framework/premium/extensions/mega-menu/options.php:479,
 #: framework/premium/extensions/mega-menu/options.php:790
 msgid "Menu Badge Settings"
-msgstr ""
+msgstr "Réglages du badge du menu"
 
 #: framework/premium/extensions/mega-menu/options.php:497,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:260
 msgid "Vertical Alignment"
-msgstr ""
+msgstr "Alignement vertical"
 
 #: framework/premium/extensions/mega-menu/options.php:532,
 #: framework/premium/extensions/shortcuts/customizer.php:862
 msgid "Background"
-msgstr ""
+msgstr "Arrière-plan"
 
 #: framework/premium/extensions/mega-menu/options.php:546
 msgid "Link Color"
-msgstr ""
+msgstr "Couleur du lien"
 
 #: framework/premium/extensions/mega-menu/options.php:566,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:144,
@@ -759,54 +759,54 @@ msgstr ""
 #: framework/premium/features/premium-header/items/contacts/options.php:459,
 #: framework/premium/features/premium-header/items/contacts/options.php:499
 msgid "Link Initial"
-msgstr ""
+msgstr "Lien initial"
 
 #: framework/premium/extensions/mega-menu/options.php:571
 msgid "Link Hover/Active"
-msgstr ""
+msgstr "Lien au survol/actif"
 
 #: framework/premium/extensions/mega-menu/options.php:576
 msgid "Background Hover"
-msgstr ""
+msgstr "Arrière-plan au survol"
 
 #: framework/premium/extensions/mega-menu/options.php:583,
 #: framework/premium/extensions/mega-menu/options.php:717
 msgid "Heading Color"
-msgstr ""
+msgstr "Couleur de l’en-tête"
 
 #: framework/premium/extensions/mega-menu/options.php:595,
 #: framework/premium/extensions/mega-menu/options.php:615,
 #: framework/premium/extensions/mega-menu/options.php:729
 msgid "Initial Color"
-msgstr ""
+msgstr "Couleur initiale"
 
 #: framework/premium/extensions/mega-menu/options.php:603
 msgid "Text Color"
-msgstr ""
+msgstr "Couleur du texte"
 
 #: framework/premium/extensions/mega-menu/options.php:622,
 #: framework/premium/extensions/shortcuts/customizer.php:879,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:432,
 #: framework/premium/features/premium-header/items/search-input/options.php:815
 msgid "Items Divider"
-msgstr ""
+msgstr "Séparateur d’éléments"
 
 #: framework/premium/extensions/mega-menu/options.php:637
 msgid "Columns Divider"
-msgstr ""
+msgstr "Séparateur de colonnes"
 
 #: framework/premium/extensions/mega-menu/options.php:652,
 #: framework/premium/features/premium-header/items/search-input/options.php:797
 msgid "Dropdown Shadow"
-msgstr ""
+msgstr "Ombre du menu déroulant"
 
 #: framework/premium/extensions/mega-menu/options.php:684
 msgid "Column Settings"
-msgstr ""
+msgstr "Réglages de colonne"
 
 #: framework/premium/extensions/mega-menu/options.php:688
 msgid "Column Spacing"
-msgstr ""
+msgstr "Espacement des colonnes"
 
 #: framework/premium/extensions/mega-menu/options.php:740,
 #: framework/features/header/items/account/options.php:660,
@@ -829,7 +829,7 @@ msgstr "Couleur de l’icône"
 
 #: framework/premium/extensions/post-types-extra/config.php:4
 msgid "Post Types Extra"
-msgstr ""
+msgstr "Types de publication Extra"
 
 #: framework/premium/extensions/post-types-extra/config.php:5
 msgid "Enables support for Custom Fields inside archive cards and single page post title, adds a reading progress bar for your posts and lets you set featured images and colors for your categories archives."
@@ -841,11 +841,11 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/readme.php:10
 msgid "Custom Fields"
-msgstr ""
+msgstr "Champs personnalisés"
 
 #: framework/premium/extensions/post-types-extra/readme.php:14
 msgid "After setting up your custom fields you will be able to output them from %s or from %2s."
-msgstr ""
+msgstr "Après avoir configuré vos champs personnalisés, vous pourrez les générer à partir de %s ou de %2s."
 
 #: framework/premium/extensions/post-types-extra/readme.php:17
 msgid "Customizer ➝ Blog Posts ➝ Card Options"
@@ -857,7 +857,7 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/readme.php:29
 msgid "Taxonomies Filters"
-msgstr ""
+msgstr "Filtres de taxonomie"
 
 #: framework/premium/extensions/post-types-extra/readme.php:33
 msgid "You can enable the taxonomies filters from %s."
@@ -865,11 +865,11 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/readme.php:36
 msgid "Customizer ➝ Blog Posts ➝ Filters"
-msgstr ""
+msgstr "Outil de personnalisation ➝ Publications du blog ➝ Filtres"
 
 #: framework/premium/extensions/post-types-extra/readme.php:44
 msgid "Read Progress Bar"
-msgstr ""
+msgstr "Barre de progression de la lecture"
 
 #: framework/premium/extensions/post-types-extra/readme.php:48
 msgid "This options could be enabled from %s."
@@ -900,7 +900,7 @@ msgstr ""
 #: framework/premium/extensions/shortcuts/customizer.php:542,
 #: framework/premium/extensions/shortcuts/views/bar.php:25
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #: framework/premium/extensions/shortcuts/customizer.php:68,
 #: framework/premium/extensions/shortcuts/customizer.php:91,
@@ -921,12 +921,12 @@ msgstr ""
 #: framework/premium/extensions/shortcuts/customizer.php:341,
 #: framework/premium/extensions/shortcuts/views/bar.php:29
 msgid "Cart"
-msgstr ""
+msgstr "Panier"
 
 #: framework/premium/extensions/shortcuts/customizer.php:374,
 #: framework/premium/extensions/shortcuts/customizer.php:397
 msgid "Shop"
-msgstr ""
+msgstr "Boutique"
 
 #: framework/premium/extensions/shortcuts/customizer.php:430,
 #: framework/premium/extensions/shortcuts/customizer.php:453,
@@ -935,11 +935,11 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/options.php:109,
 #: framework/premium/extensions/woocommerce-extra/header-items/wish-list/view.php:88
 msgid "Wishlist"
-msgstr ""
+msgstr "Liste de souhaits"
 
 #: framework/premium/extensions/shortcuts/customizer.php:536
 msgid "Shortcuts"
-msgstr ""
+msgstr "Raccourcis"
 
 #: framework/premium/extensions/shortcuts/customizer.php:591,
 #: framework/features/header/items/account/options.php:216,
@@ -974,11 +974,11 @@ msgstr "Taille de l’icône"
 
 #: framework/premium/extensions/shortcuts/customizer.php:661
 msgid "Container Height"
-msgstr ""
+msgstr "Hauteur du conteneur"
 
 #: framework/premium/extensions/shortcuts/customizer.php:676
 msgid "Container Max Width"
-msgstr ""
+msgstr "Largeur maximale du conteneur"
 
 #: framework/premium/extensions/shortcuts/customizer.php:700
 msgid "Scroll Interaction"
@@ -986,11 +986,11 @@ msgstr ""
 
 #: framework/premium/extensions/shortcuts/customizer.php:706
 msgid "Hide"
-msgstr ""
+msgstr "Masquer"
 
 #: framework/premium/extensions/shortcuts/customizer.php:748
 msgid "Shortcuts Bar Display Conditions"
-msgstr ""
+msgstr "Conditions d'affichage de la barre de raccourcis"
 
 #: framework/premium/extensions/shortcuts/customizer.php:749
 msgid "Add one or more conditions to display the shortcuts bar."
@@ -1002,7 +1002,7 @@ msgstr ""
 #: framework/premium/features/premium-header/items/language-switcher/options.php:192,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:376
 msgid "Font"
-msgstr ""
+msgstr "Police"
 
 #: framework/premium/extensions/shortcuts/customizer.php:805,
 #: framework/premium/features/premium-header/items/contacts/options.php:529,
@@ -1010,7 +1010,7 @@ msgstr ""
 #: framework/premium/features/premium-header/items/contacts/options.php:589,
 #: framework/premium/features/premium-header/items/contacts/options.php:619
 msgid "Icons Color"
-msgstr ""
+msgstr "Couleur des icônes"
 
 #: framework/premium/extensions/shortcuts/customizer.php:844
 msgid "Cart Badge Color"
@@ -1025,7 +1025,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/popup.php:368,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:446
 msgid "Shadow"
-msgstr ""
+msgstr "Ombre"
 
 #: framework/premium/extensions/sidebars/config.php:5
 msgid "Create unlimited personalized sets of widget areas and display them on any page or post using our conditional logic functionality."
@@ -1047,7 +1047,7 @@ msgstr ""
 #: framework/premium/extensions/sidebars/form.php:16
 #: framework/premium/extensions/sidebars/static/js/main.js:58
 msgid "Create Sidebar"
-msgstr ""
+msgstr "Créer une colonne latérale"
 
 #: framework/premium/extensions/sidebars/form.php:20
 msgid "Available Sidebars/Widget Areas"
@@ -1099,11 +1099,11 @@ msgstr "Type 4"
 #: framework/premium/extensions/woocommerce-extra/extension.php:110,
 #: framework/premium/extensions/woocommerce-extra/extension.php:129
 msgid "Number of Columns"
-msgstr ""
+msgstr "Nombre de colonnes"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:612
 msgid "Available Filters"
-msgstr ""
+msgstr "Filtres disponibles"
 
 #: framework/premium/extensions/woocommerce-extra/extension.php:690
 msgid "Quick view title before"
@@ -1132,7 +1132,7 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:4,
 #: framework/premium/extensions/woocommerce-extra/readme.php:25
 msgid "Floating Cart"
-msgstr ""
+msgstr "Panier flottant"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:17
 msgid "Position"
@@ -1146,27 +1146,27 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:34
 msgid "Product Title Visibility"
-msgstr ""
+msgstr "Visibilité du titre du produit"
 
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:58
 msgid "Floating Cart Visibility"
-msgstr ""
+msgstr "Visibilité du panier flottant"
 
 #: framework/premium/extensions/woocommerce-extra/helpers.php:102
 msgid "Go to product page"
-msgstr ""
+msgstr "Aller à la page produit"
 
 #: framework/premium/extensions/woocommerce-extra/helpers.php:322
 msgid "Filter"
-msgstr ""
+msgstr "Filtre"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:3
 msgid "Off Canvas Filter"
-msgstr ""
+msgstr "Filtre hors canevas"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:14
 msgid "Filter Widgets"
-msgstr ""
+msgstr "Filtrer les widgets"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:18
 msgid "Widgets"
@@ -1220,7 +1220,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:230
 msgid "Panel Reveal"
-msgstr ""
+msgstr "Révélation du panneau"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:237
 msgid "Left Side"
@@ -1232,15 +1232,15 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:243
 msgid "Panel Width"
-msgstr ""
+msgstr "Largeur du panneau"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:284
 msgid "Panel Shadow"
-msgstr ""
+msgstr "Ombre du panneau"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:302
 msgid "Panel Background"
-msgstr ""
+msgstr "Arrière-plan du panneau"
 
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:334,
 #: framework/features/header/items/account/options.php:958
@@ -1266,7 +1266,7 @@ msgstr ""
 #: framework/premium/extensions/woocommerce-extra/readme.php:59,
 #: framework/premium/extensions/woocommerce-extra/readme.php:74
 msgid "Navigate to %s."
-msgstr ""
+msgstr "Accédez à %s."
 
 #: framework/premium/extensions/woocommerce-extra/readme.php:17
 msgid "Customizer ➝ WooCommerce ➝ Product Archives ➝ Card Options ➝ Quick View"
@@ -2488,11 +2488,11 @@ msgstr ""
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:9,
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:50
 msgid "Read Time"
-msgstr ""
+msgstr "Temps de lecture"
 
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:88
 msgid " min"
-msgstr ""
+msgstr "min"
 
 #: framework/premium/extensions/post-types-extra/includes/estimated-read-time.php:91
 msgid " mins"
@@ -2500,15 +2500,15 @@ msgstr ""
 
 #: framework/premium/extensions/post-types-extra/includes/filtering.php:286
 msgid "All"
-msgstr ""
+msgstr "Tout"
 
 #: framework/premium/extensions/post-types-extra/includes/taxonomies-options.php:129
 msgid "Featured Image"
-msgstr ""
+msgstr "Image mise en avant"
 
 #: framework/premium/extensions/post-types-extra/includes/taxonomies-options.php:134
 msgid "Accent Color"
-msgstr ""
+msgstr "Couleur d’accentuation"
 
 #: framework/premium/extensions/shortcuts/views/bar.php:31,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list.php:137
@@ -2598,7 +2598,7 @@ msgstr ""
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:14
 msgid "Add to cart"
-msgstr ""
+msgstr "Ajouter au panier"
 
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:89,
 #: framework/premium/extensions/woocommerce-extra/includes/wish-list-table.php:113
@@ -2620,13 +2620,13 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/header.php:63,
 #: framework/premium/features/content-blocks/options/hook.php:68
 msgid "Narrow Width"
-msgstr ""
+msgstr "Largeur étroite"
 
 #: framework/premium/features/content-blocks/options/404.php:64,
 #: framework/premium/features/content-blocks/options/header.php:68,
 #: framework/premium/features/content-blocks/options/hook.php:73
 msgid "Normal Width"
-msgstr ""
+msgstr "Largeur normale"
 
 #: framework/premium/features/content-blocks/options/404.php:70,
 #: framework/premium/features/content-blocks/options/header.php:74,
@@ -2670,7 +2670,7 @@ msgstr ""
 #: framework/premium/features/content-blocks/options/hook.php:256,
 #: framework/premium/features/content-blocks/options/popup.php:296
 msgid "Expiration Date/Time"
-msgstr ""
+msgstr "Date/heure d'expiration"
 
 #: framework/premium/features/content-blocks/options/hook.php:283
 msgid "Block Position"
@@ -2810,17 +2810,17 @@ msgstr ""
 
 #: framework/premium/features/content-blocks/options/popup.php:347
 msgid "Padding"
-msgstr ""
+msgstr "Marge interne"
 
 #: framework/premium/features/content-blocks/options/popup.php:357,
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:266,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:465
 msgid "Border Radius"
-msgstr ""
+msgstr "Rayon de bordure"
 
 #: framework/premium/features/content-blocks/options/popup.php:386
 msgid "Popup Offset"
-msgstr ""
+msgstr "Décalage de la fenêtre surgissante"
 
 #: framework/premium/features/content-blocks/options/popup.php:396
 msgid "Container Overflow"
@@ -2935,16 +2935,16 @@ msgstr ""
 
 #: framework/premium/features/premium-header/items/contacts/config.php:4
 msgid "Contacts"
-msgstr ""
+msgstr "Contacts"
 
 #: framework/premium/features/premium-header/items/contacts/options.php:239
 msgid "Open Links In New Tab"
-msgstr ""
+msgstr "Ouvrir les liens dans un nouvel onglet"
 
 #: framework/premium/features/premium-header/items/contacts/options.php:259,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:95
 msgid "Items Spacing"
-msgstr ""
+msgstr "Espacement des éléments"
 
 #: framework/premium/features/premium-header/items/contacts/options.php:834,
 #: framework/premium/features/premium-header/items/divider/options.php:107,
@@ -2952,11 +2952,11 @@ msgstr ""
 #: framework/premium/features/premium-header/items/language-switcher/options.php:323,
 #: framework/premium/features/premium-header/items/search-input/options.php:724
 msgid "Margin"
-msgstr ""
+msgstr "Marge"
 
 #: framework/premium/features/premium-header/items/dark-mode-switcher/config.php:5
 msgid "Dark Mode"
-msgstr ""
+msgstr "Mode sombre"
 
 #: framework/premium/features/premium-header/items/divider/config.php:4
 msgid "Divider"
@@ -2976,7 +2976,7 @@ msgstr ""
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:37
 msgid "Dropdown"
-msgstr ""
+msgstr "Menu déroulant"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:47
 msgid "Display"
@@ -2992,19 +2992,19 @@ msgstr ""
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:79
 msgid "Long"
-msgstr ""
+msgstr "Long"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:80
 msgid "Short"
-msgstr ""
+msgstr "Court"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:112
 msgid "Hide Current Language"
-msgstr ""
+msgstr "Masquer la langue actuelle"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:343
 msgid "Dropdown Options"
-msgstr ""
+msgstr "Options du menu déroulant"
 
 #: framework/premium/features/premium-header/items/language-switcher/options.php:352
 msgid "Dropdown Top Offset"
@@ -3051,11 +3051,11 @@ msgstr ""
 
 #: framework/premium/features/premium-header/items/search-input/options.php:744
 msgid "Dropdown Text Color"
-msgstr ""
+msgstr "Couleur du texte du menu déroulant"
 
 #: framework/premium/features/premium-header/items/search-input/options.php:775
 msgid "Dropdown Background"
-msgstr ""
+msgstr "Arrière-plan du menu déroulant"
 
 #: framework/premium/features/premium-header/items/widget-area-1/config.php:4
 msgid "Widget Area"
@@ -3759,7 +3759,7 @@ msgstr "Archive %s"
 
 #: framework/features/conditions-manager.php:363
 msgid "%s %s Taxonomy"
-msgstr "Taxonomie %s %s "
+msgstr "Taxonomie %s %s"
 
 #: framework/features/conditions-manager.php:377
 msgid "Entire Website"
@@ -5187,17 +5187,17 @@ msgstr "Aucun"
 #: framework/premium/features/content-blocks.php:229,
 #: framework/premium/features/content-blocks/options/popup.php:163
 msgid "On scroll"
-msgstr ""
+msgstr "Au défilement"
 
 #: framework/premium/features/content-blocks.php:230,
 #: framework/premium/features/content-blocks/options/popup.php:164
 msgid "On scroll to element"
-msgstr ""
+msgstr "Au défilement vers l’élément"
 
 #: framework/premium/features/content-blocks.php:231,
 #: framework/premium/features/content-blocks/options/popup.php:165
 msgid "On page load"
-msgstr ""
+msgstr "Au chargement de la page"
 
 #: framework/premium/features/content-blocks.php:232,
 #: framework/premium/features/content-blocks/options/popup.php:166
@@ -5212,7 +5212,7 @@ msgstr ""
 #: framework/premium/features/content-blocks.php:234,
 #: framework/premium/features/content-blocks/options/popup.php:168
 msgid "On page exit intent"
-msgstr ""
+msgstr "Intention de sortie de page"
 
 #: framework/premium/features/content-blocks.php:238
 msgid "Down"
@@ -5246,7 +5246,7 @@ msgstr ""
 #: framework/premium/features/content-blocks.php:621
 #: framework/premium/static/js/hooks/CreateHook.js:32
 msgid "New Content Block"
-msgstr ""
+msgstr "Nouveau bloc de contenu"
 
 #: framework/premium/features/content-blocks.php:623
 msgid "View Content Block"
@@ -5258,11 +5258,11 @@ msgstr ""
 
 #: framework/premium/features/content-blocks.php:625
 msgid "Nothing found"
-msgstr ""
+msgstr "Rien n’a été trouvé"
 
 #: framework/premium/features/content-blocks.php:626
 msgid "Nothing found in Trash"
-msgstr ""
+msgstr "Rien n’a été trouvé dans la corbeille"
 
 #: framework/premium/features/premium-footer.php:30,
 #: framework/premium/features/premium-footer.php:41
@@ -5433,7 +5433,7 @@ msgstr ""
 
 #: framework/premium/extensions/code-snippets/readme.php:13
 msgid "Navigate to %s and place there your header, body or footer scripts."
-msgstr ""
+msgstr "Accédez à %s et placez-y vos scripts d’en-tête, de body ou de pied de page."
 
 #: framework/premium/extensions/code-snippets/readme.php:16
 msgid "Customizer ➝ Custom Code Snippets"
@@ -5461,7 +5461,7 @@ msgstr ""
 
 #: framework/premium/extensions/mega-menu/config.php:5
 msgid "Create beautiful personalised menus that set your website apart from the others. Add icons and badges to your entries and even add Content Blocks inside your dropdowns."
-msgstr ""
+msgstr "Créez de magnifiques menus personnalisés qui distinguent votre site des autres. Ajoutez des icônes et des badges à vos entrées et ajoutez même des blocs de contenu dans vos menus déroulants."
 
 #: framework/premium/extensions/mega-menu/config.php:9,
 #: framework/premium/extensions/shortcuts/config.php:12

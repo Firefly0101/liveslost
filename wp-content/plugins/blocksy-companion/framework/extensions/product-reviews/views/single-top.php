@@ -62,7 +62,7 @@ if (count($gallery_images) === 1) {
 	echo blocksy_image([
 		'attachment_id' => $gallery_images[0],
 		'size' => 'full',
-		'ratio' => '2/1',
+		'ratio' => apply_filters('blocksy:ext:product-reviews:gallery:ratio', '2/1'),
 		'tag_name' => 'a',
 		'html_atts' => array_merge([
 			'href' => $image_href
@@ -77,7 +77,7 @@ if (count($gallery_images) > 1) {
 	$args = [
 		'images' => $gallery_images,
 		'size' => 'full',
-		'images_ratio' => '2/1'
+		'images_ratio' => apply_filters('blocksy:ext:product-reviews:gallery:ratio', '2/1')
 	];
 
 	$args['pills_images'] = $gallery_images;

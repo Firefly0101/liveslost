@@ -345,6 +345,12 @@ export const handleAccountModal = (el) => {
 							)
 						}
 
+						ctEvents.trigger(
+							`blocksy:account:register:${
+								hasError ? 'error' : 'success'
+							}`
+						)
+
 						if (
 							!hasError ||
 							(hasError &&

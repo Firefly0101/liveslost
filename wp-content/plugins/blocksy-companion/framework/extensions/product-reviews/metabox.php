@@ -48,6 +48,22 @@ $options = [
 				'type' => 'ct-condition',
 				'condition' => ['product_review_entity' => 'Product'],
 				'options' => [
+
+					blocksy_rand_md5() => [
+						'type' => 'ct-group',
+						'label' => ' ',
+						'wrapperAttr' => ['data-design' => 'inline'],
+						'options' => [
+
+							blocksy_rand_md5() => [
+								'type' => 'ct-notification',
+								'text' => __( 'Please note that some of this information (price, sku, brand) won\'t be displayed on the front-end. It is solely used for Google\'s Schema.org markup.', 'blocksy-companion' ),
+								'attr' => ['data-type' => 'background:yellow']
+							],
+
+						],
+					],
+
 					'product_entity_price' => [
 						'type' => 'text',
 						'label' => __('Product Price', 'blocksy-companion'),
@@ -59,14 +75,14 @@ $options = [
 						'type' => 'text',
 						'label' => __('Product SKU', 'blocksy-companion'),
 						'design' => 'inline',
-						'value' => ''
+						'value' => '',
 					],
 
 					'product_entity_brand' => [
 						'type' => 'text',
 						'label' => __('Product Brand', 'blocksy-companion'),
 						'design' => 'inline',
-						'value' => ''
+						'value' => '',
 					],
 				]
 			],

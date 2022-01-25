@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.3.1\n"
+"X-Generator: GlotPress/3.0.0-alpha.4\n"
 "Language: zh_TW\n"
 "Project-Id-Version: Blocksy Companion Pro\n"
 
@@ -4663,7 +4663,7 @@ msgid "Navigate to %s and place the widget in any widget area you want."
 msgstr "請到 %s 在任何小工具區域放置你要的小工具。"
 
 #: framework/extensions/newsletter-subscribe/readme.php:17
-msgid "Appearance ��� Widgets"
+msgid "Appearance ➝ Widgets"
 msgstr "外觀 ➝ 小工具"
 
 #: framework/extensions/newsletter-subscribe/readme.php:25

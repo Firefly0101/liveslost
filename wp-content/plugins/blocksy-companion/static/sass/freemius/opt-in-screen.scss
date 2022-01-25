@@ -117,7 +117,8 @@
 				li {
 					margin-bottom: 0;
 
-					i.dashicons {
+					> i.dashicons {
+						display: none;
 						font-size: 18px;
 						width: 18px;
 						height: 18px;
@@ -129,13 +130,28 @@
 						margin-left: 0;
 
 						span {
+							display: flex;
+							align-items: center;
+							// font-size: 14px;
+							font-weight: 600;
 							text-transform: capitalize;
+
+							i.dashicons {
+								font-size: 15px;
+								width: 15px;
+								height: 15px;
+								margin-inline-start: 8px;
+
+								&:before {
+									opacity: 0.4;
+								}
+							}
 						}
 
 						p {
 							margin-top: 8px;
-							font-size: 12px;
-							opacity: 0.7;
+							// font-size: 13px;
+							// opacity: 0.7;
 						}
 					}
 
@@ -162,7 +178,8 @@
 				ul {
 					display: grid;
 					grid-template-columns: repeat(2, minmax(auto, 280px));
-					grid-column-gap: 30px;
+					// grid-column-gap: 30px;
+					grid-column-gap: 5px;
 					grid-row-gap: 30px;
 					margin: 20px 0 0 0;
 					padding-top: 30px;
@@ -171,10 +188,12 @@
 			}
 
 			.fs-switch {
+				float: left;
 				width: 25px;
 				height: 16px;
 				top: 1px;
-				right: 20px;
+				// right: 20px;
+				margin-inline-end: 8px;
 				padding: 0;
 				box-shadow: none;
 				box-sizing: border-box;
