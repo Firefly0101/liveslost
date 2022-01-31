@@ -77,11 +77,25 @@ function doFilterItems(i){
         jQuery( "#ajax-posts .row").removeClass("hide");
     }
 
+    updateCounts();
+}
+
+/**
+ * Update subtotals for each day and total count
+ */
+function updateCounts() {
+    // update line counts
+    jQuery( "#ajax-posts .row").each(function( index ) {
+        var count = jQuery(this).find('.item-life').not('.fade').length;
+        //console.log(count);
+        
+        jQuery(this).find('.icon-count').html(count);
+    });
+
     // update total count
     var numItems = jQuery('.item-life').not('.fade').length;
     jQuery('.total-count span').html(numItems);
 }
-
 
 function initApp() {
 

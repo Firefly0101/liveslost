@@ -21,6 +21,9 @@
 //define( 'WP_HOME', 'https://sace-dev.fireflydigital.dev' );
 //define( 'WP_SITEURL', 'https://sacs-dev.fireflydigital.dev' );
 
+// sets number of posts to render
+define('SHOW_NUM_POSTS', 1200);
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', true);
